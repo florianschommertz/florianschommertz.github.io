@@ -1,0 +1,19 @@
+<IfModule mod_headers.c>
+    # SetEnvIf Origin "http(s)?://(www\.)?(bretagneurlaub-nuxt.digital-noises.de|bretagneurlaub-admin.digital-noises.de|)$" AccessControlAllowOrigin=$0
+    # Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+    SetEnvIf Origin "^(https?://bretagneurlaub-nuxt.digital-noises.de|bretagneurlaub-admin.digital-noises.de|https://[a-z]+\.my\.base\.domain)$" ORIGIN_SUB_DOMAIN=$1
+    Header set Access-Control-Allow-Origin: "%{ORIGIN_SUB_DOMAIN}e" env=ORIGIN_SUB_DOMAIN
+
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^200\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /200.html [L]
+</IfModule>
+
+# END WordPress
