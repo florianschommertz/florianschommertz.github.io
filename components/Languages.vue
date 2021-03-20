@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <h2>Languages</h2>
+    <ul>
+      <li>English</li>
+      <li>German</li>
+      <li>Dutch</li>
+    </ul>
+  </div>
+</template>

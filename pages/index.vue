@@ -7,13 +7,28 @@
     <main>
       <b-container>
         <b-row>
-          <b-col>
+          <b-col cols="9">
             <pre>
 Digital Noises + Florian Schommertz
 Dipl. Sound Engineer, Dipl. Medien-Designer
 </pre
             >
             {{ $route.params.id }}
+          </b-col>
+          <b-col>
+            web · social media · av<br />
+            design / ux / code / seo
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="9">
+            <Education />
+            <Experience />
+          </b-col>
+          <b-col>
+            <Languages />
+
+            <Technologies />
           </b-col>
         </b-row>
       </b-container>
@@ -25,7 +40,10 @@ Dipl. Sound Engineer, Dipl. Medien-Designer
 </template>
 
 <script>
-export default {}
+import Education from '~/components/Education.vue'
+export default {
+  components: { Education },
+}
 </script>
 
 <style lang="scss" scoped></style>
