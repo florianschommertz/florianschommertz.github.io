@@ -3,39 +3,47 @@
     <h2>Technologies</h2>
     <h3>Web Development</h3>
     <ul>
-      <li>javascript</li>
-      <li>jquery</li>
-      <li>vue.js</li>
-
-      <li>wordpress</li>
-      <li>php</li>
-      <li>css / animation</li>
-      <li>sass / scss</li>
-      <li>html</li>
-      <li>svg</li>
-      <li>sql</li>
-      <li>seo</li>
-      <li>performance</li>
-      <li>pwa</li>
-
-      <li>spa</li>
-      <li>docker, git , node.js, webpack, angular, react, aws</li>
+      <li>JavaScript</li>
+      <li>Vue.js · expert level</li>
+      <li>jQuery</li>
+      <li>WordPress · expert level</li>
+      <li>PHP</li>
+      <li>MySql</li>
+      <li>CSS / animation</li>
+      <li>SASS / SCSS · expert level</li>
+      <li>HTML · expert level</li>
+      <li>SVG</li>
+      <li>SEO</li>
+      <li>Performance</li>
+      <li>Threejs</li>
+      <li>PWA</li>
+      <li>SPA</li>
+      <li>Docker</li>
+      <li>git</li>
+      <li>node.js</li>
+      <li>RESTful APIs</li>
+      <li>JSON/GraphQl</li>
+      <li>Basic knowledge:</li>
+      <li>webpack, angular, react, aws, keycloak, mongo, vite</li>
+      <li>No knowledge:</li>
+      <li>Azure, C/C#, Python, .NET</li>
     </ul>
     <h3>design & concept</h3>
     <ul>
-      <li>illustrator</li>
-      <li>photoshop</li>
-      <li>indesign</li>
-      <li>adobe</li>
-      <li>xd</li>
-      <li>ui/ux</li>
+      <li>Illustrator · expert level</li>
+      <li>Lightroom · expert level</li>
+      <li>Photoshop</li>
+      <li>Indesign</li>
+      <li>Adobe XD</li>
+      <li>Ui/UX</li>
     </ul>
-    <h3>audio & video</h3>
-
+    <h3>Audio & Video</h3>
     <ul>
-      <li>logic-audio</li>
-      <li>native instruments</li>
-      <li>final cut pro</li>
+      <li>Logic Audio expert level</li>
+      <li>Native Instruments</li>
+      <li>Final Cut</li>
+      <li>Motion</li>
     </ul>
+    <h3>Broad Psychology based perception knowledge about CJ/CX</h3>
   </div>
 </template>
