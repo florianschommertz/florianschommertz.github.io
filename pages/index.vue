@@ -34,7 +34,14 @@ Dipl. Sound Engineer, Dipl. Medien-Designer
       </b-container>
     </main>
     <footer class="footer">
-      <div class="text-center"></div>
+      <div class="text-center">
+        <a
+          href="https://github.com/florianschommertz/"
+          title="__LINKZIEL__"
+          class="__classname__"
+          >https://github.com/florianschommertz/</a
+        >
+      </div>
     </footer>
   </div>
 </template>
