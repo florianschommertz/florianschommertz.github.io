@@ -3,12 +3,12 @@
     <h2>Technologies</h2>
     <h3>Web Development</h3>
     <ul>
-      <li v-ranking="75">JavaScript</li>
-      <li v-ranking="80">Vue.js</li>
-      <li v-ranking="85">jQuery</li>
-      <li v-ranking="85">WordPress</li>
-      <li v-ranking="70">PHP</li>
-      <li v-ranking="60">MySql</li>
+      <li v-ranking="75"><DoSomeThree zoom="4" /><br />JavaScript</li>
+      <li v-ranking="80"><DoSomeThree zoom="5" /><br />Vue.js</li>
+      <li v-ranking="85"><DoSomeThree zoom="6" /><br />jQuery</li>
+      <li v-ranking="85"><DoSomeThree zoom="7" /><br />WordPress</li>
+      <li v-ranking="70"><DoSomeThree zoom="8" /><br />PHP</li>
+      <li v-ranking="60"><DoSomeThree zoom="9" /><br />MySql</li>
       <li v-ranking="98">CSS / animation</li>
       <li v-ranking="90">SASS / SCSS</li>
       <li v-ranking="90">HTML</li>
@@ -59,7 +59,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 li {
-  display: flex;
+  // display: flex;
   &:before {
     display: block;
     content: '\00A0';
