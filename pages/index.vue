@@ -13,6 +13,12 @@
         </b-col>
         <b-col class="mt">
           <p>
+            Consultant for<br />
+            Audio Video<br />
+            Online Performance<br />
+            WordPress Themes UX
+          </p>
+          <p>
             f@schommertz.com // tel: +49 2434.30 83 890<br />
             skype: florianschommertz // nz: +64 22 089 5068
           </p>
