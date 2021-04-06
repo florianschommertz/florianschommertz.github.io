@@ -1,56 +1,42 @@
 <template>
-  <div>
-    <header>
-      <h1>Florian Schommertz</h1>
-      <div class="avatar">Foto</div>
-    </header>
-    <main>
-      <b-container>
-        <b-row>
-          <b-col cols="9">
-            <pre>
-Digital Noises + Florian Schommertz
-Dipl. Sound Engineer, Dipl. Medien-Designer
-</pre
-            >
-            {{ $route.params.id }}
-          </b-col>
-          <b-col>
-            web · social media · av<br />
-            design / ux / code / seo
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col cols="9">
-            <Education />
-            <Experience />
-          </b-col>
-          <b-col>
-            <Languages />
-
-            <Technologies />
-          </b-col>
-        </b-row>
-      </b-container>
-    </main>
-    <footer class="footer">
-      <div class="text-center">
-        <a
-          href="https://github.com/florianschommertz/"
-          title="__LINKZIEL__"
-          class="__classname__"
-          >https://github.com/florianschommertz/</a
-        >
-      </div>
-    </footer>
-  </div>
+  <main>
+    <b-container>
+      <b-row class="row">
+        <b-col cols="9">
+          Florian Schommertz<br />
+          Dipl. Sound Engineer<br />
+          Dipl. Medien-Designer
+        </b-col>
+        <b-col>
+          web · social media · av<br />
+          design / ux / code / seo
+        </b-col>
+        <b-col class="mt">
+          <p>
+            f@schommertz.com // tel: +49 2434.30 83 890<br />
+            skype: florianschommertz // nz: +64 22 089 5068
+          </p>
+          <p>
+            Germany + Sankt Rochusweiler 13a + 41844 Wegberg // USt-IdNr.:
+            DE195532753<br />New Zealand + 9 Dalmeny Close + Murrays Bay, North
+            Shore, 0630 co. Thomas<br />
+            https://florian.schommertz.com ++++
+          </p>
+        </b-col>
+      </b-row>
+    </b-container>
+  </main>
 </template>
 
 <script>
-import Education from '~/components/Education.vue'
-export default {
-  components: { Education },
-}
+export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.row {
+  & + .row,
+  .mt {
+    margin-top: 2em;
+  }
+}
+</style>
