@@ -37,8 +37,8 @@
       <b-row class="row">
         <b-col cols="9">
           Florian Schommertz<br />
-          Dipl. Sound Engineer<br />
-          Dipl. Medien-Designer
+          Dipl. Sound Engineer (SAE)<br />
+          Dipl. Media-Designer (FH)
         </b-col>
         <b-col>
           web · social media · av<br />
@@ -46,11 +46,11 @@
         </b-col>
         <b-col class="mt">
           <p>
-            Consultant for:<br />
-            Web / Audio / Video<br />
-            Website-Performance<br />
-            WordPress Themes<br />
-            UX
+            advisor / consultant for:<br />
+            web / audio / video<br />
+            website-performance<br />
+            wordPress themes<br />
+            ux
           </p>
           <p>
             f@schommertz.com // tel: +49 2434.30 83 890<br />
@@ -111,7 +111,21 @@ body {
   position: absolute;
   border-radius: 50%;
 }
-
+@keyframes p-animation-main {
+  0% {
+    transform: perspective(1000px) rotateY(0deg) translateZ(-25px);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg) translateZ(-25px);
+  }
+}
+#p-container {
+  animation: p-animation-main 20s linear infinite;
+  height: 80vh;
+  width: 100vw;
+  position: fixed;
+  // background: #030;
+}
 @for $i from 1 through 30 {
   @keyframes p-animation-#{$i} {
     100% {
@@ -129,7 +143,7 @@ body {
     opacity: random(100) / 100;
     height: $size;
     width: $size;
-    animation-delay: -$i * 0.2s;
+    animation-delay: -$i * 2s;
     transform: translate3d(
       (random(90) * 1vw),
       (random(90) * 1vh),

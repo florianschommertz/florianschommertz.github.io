@@ -15,6 +15,10 @@
 
       <h2>2021</h2>
       <section>
+        <a href="https://alumni.ikv-aachen.de">
+          alumni.ikv-aachen.de - Alumni-SPA for the Institute of Plastics
+          Processing
+        </a>
         <a href="https://www.bretagneurlaub.de">
           bretagneurlaub.de - Holidayhome Website, Nuxt.js Headless WP
         </a>
@@ -137,7 +141,7 @@
         >
         <a href="http://metalmeets.com">Metal Meets Relaunch</a>
 
-        <h3>for www.schroederandfriends.com:</h3>
+        <h3>for www.schroeder&shy;and&shy;friends.com:</h3>
         <strike>
           <a href="http://www.pursteucks.de"></a>
         </strike>
@@ -202,9 +206,11 @@
           Hoehler Neumann Anwälte aus Aachen Relaunch
           <small>WP Theme from Scratch</small>
         </a>
-        <h3>for www.schroederandfriends.com:</h3>
+        <h3>for www.schroeder&shy;and&shy;friends.com:</h3>
         <small>Technical Support for</small>
-        <a href="http://www.schroederandfriends.com">Schroeder and Friends</a>
+        <a href="http://www.schroeder&shy;and&shy;friends.com"
+          >Schroeder and Friends</a
+        >
         <a href="http://www.schell-gruentechnik.de">Shell Grüntechnik</a>
         <a href="http://www.hochheuser.com">Hochheuser</a>
         <a href="http://geckoconsulting-ac.de">Geckoconsulting AC</a>
@@ -287,23 +293,23 @@
             >outdated / offline</a
           ></strike
         >
-      </section>
-      <a href="http://www.abtei-gerleve.de"
-        >Abtei Gerleve <small>WP Theme from Scratch</small></a
-      >
-      <a href="http://www.michels-blumen.de/">Michels Blumen</a>
-      <a href="http://fashion-design-institut.de"
-        >fashion-design-institut.de (responsive relaunch)
-        <small>WP Theme from Scratch</small></a
-      >
-      <strike>
-        <a href="http://sigmasoft.de"
-          >sigmasoft.de relaunch <small>WP Theme from Scratch</small></a
+        <a href="http://www.abtei-gerleve.de"
+          >Abtei Gerleve <small>WP Theme from Scratch</small></a
         >
-      </strike>
+        <a href="http://www.michels-blumen.de/">Michels Blumen</a>
+        <a href="http://fashion-design-institut.de"
+          >fashion-design-institut.de (responsive relaunch)
+          <small>WP Theme from Scratch</small></a
+        >
+        <strike>
+          <a href="http://sigmasoft.de"
+            >sigmasoft.de relaunch <small>WP Theme from Scratch</small></a
+          >
+        </strike>
 
-      <a href="http://colorissima.de">WordPress from Scratch</a>
-      <a href="http://boot-folierung.de/">WordPress from Scratch</a>
+        <a href="http://colorissima.de">WordPress from Scratch</a>
+        <a href="http://boot-folierung.de/">WordPress from Scratch</a>
+      </section>
 
       <h2>2014</h2>
       <section>

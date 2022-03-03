@@ -8,8 +8,8 @@
         graduate designer
       </dt>
       <dd>
-        audiovisual communications / design studies,branch of study »new media«,
-        university of applied sciences aachen · graduate designer (fh)<!-- (compared
+        audiovisual communications / design studies, branch of study »new
+        media«, university of applied sciences aachen · graduate designer (fh)<!-- (compared
         to graduated diploma level 7 certified by nzqf)-->
       </dd>
       <dt>1997 — 1998<br />graduate sound engineer</dt>
