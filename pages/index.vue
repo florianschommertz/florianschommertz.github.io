@@ -47,7 +47,7 @@
         <b-col class="mt">
           <p>
             Consultant for:<br />
-            Audio Video<br />
+            Web / Audio / Video<br />
             Website-Performance<br />
             WordPress Themes<br />
             UX
