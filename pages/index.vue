@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
-    <div id="p-container">
+    <div id="p-container" role="presentation">
       <div class="p"></div>
       <div class="p"></div>
       <div class="p"></div>
@@ -58,11 +58,32 @@
           </p>
           <p>
             Germany + Sankt Rochusweiler 13a + 41844 Wegberg // USt-IdNr.:
-            DE195532753<br />New Zealand + 9 Dalmeny Close + Murrays Bay, North
-            Shore, 0630 co. Thomas<br />
+            DE195532753<br />
+            <!-- New Zealand + 9 Dalmeny Close + Murrays Bay, North
+            Shore, 0630 co. Thomas<br /> -->
             https://florian.schommertz.com ++++
           </p>
         </b-col>
+      </b-row>
+      <b-row>
+        <b-col cols="9">
+          <Education />
+        </b-col>
+        <b-col>
+          <Languages />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col cols="9">
+          <Experience />
+          <Portfolio class="mt-5" />
+        </b-col>
+        <b-col>
+          <Technologies />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col> </b-col>
       </b-row>
     </b-container>
   </main>

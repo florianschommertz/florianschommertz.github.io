@@ -11,12 +11,12 @@
             <pre>
 Digital Noises + Florian Schommertz
 Dipl. Sound Engineer, Dipl. Medien-Designer
-</pre
-            >
+            </pre>
             {{ $route.params.id }}
           </b-col>
         </b-row>
       </b-container>
+      <Education />
     </main>
     <footer class="footer">
       <div class="text-center"></div>

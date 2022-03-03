@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2>Languages</h2>
+    <h2>languages</h2>
     <ul>
-      <li>English</li>
-      <li>German</li>
-      <li>Dutch</li>
+      <li>german (native)</li>
+      <li>english (good user)</li>
+      <li>dutch (basic)</li>
     </ul>
   </div>
 </template>
