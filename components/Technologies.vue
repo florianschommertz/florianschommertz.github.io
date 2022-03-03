@@ -84,7 +84,7 @@ ul {
       content: '\00A0';
       font-size: 0;
       line-height: 0;
-      height: 1.5rem;
+      height: 0.75rem;
       width: calc(var(--ranking) * 1%);
       border-radius: 0.75rem;
       background: #fff;

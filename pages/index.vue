@@ -46,10 +46,10 @@
         </b-col>
         <b-col class="mt">
           <p>
-            advisor / consultant for:<br />
+            advisor / consultant / developer for:<br />
             web / audio / video<br />
             website-performance<br />
-            wordPress themes<br />
+            wordpress themes<br />
             ux
           </p>
           <p>

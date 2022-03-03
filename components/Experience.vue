@@ -7,19 +7,19 @@
       <dd>freelance consultant for film and audio</dd>
 
       <dt>since ~2011</dt>
-      <dd>freelance consultant for yt/twitter/fb</dd>
+      <dd>freelance consultant for YouTube / Twitter / FB</dd>
 
       <dt>01/2005 — 06/2008</dt>
-      <dd>freelance teacher for photoshop, indesign and illustrator</dd>
+      <dd>freelance teacher for Photoshop, Indesign and Illustrator</dd>
 
       <dt>2003 — 2011</dt>
       <dd>
-        teaching at the university of applied sciences of aachen special focus
+        teaching at the University of Applied Sciences of Aachen, special focus
         on sound for directors and script writers
       </dd>
 
       <dt>04/1999 — 03/2004</dt>
-      <dd>teacher at the sae-cologne: sound engineering and cross media</dd>
+      <dd>teacher at SAE Cologne: sound engineering and cross media</dd>
 
       <dt>1999 — 2014</dt>
       <dd>sound designer and music composer</dd>

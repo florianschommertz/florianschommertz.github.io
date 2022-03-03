@@ -1,49 +1,71 @@
 <template>
   <div>
     <h2>portfolio</h2>
-    <article>
+    <article class="mt-3">
       <h2>2022</h2>
 
       <section>
         <h3>Work in Progress</h3>
         <a href="https://measx-frontend.digital-noises.de/start/">
-          Measx - Complex Nuxt.Js driven PWA
+          Measx - complex Nuxt.Js driven PWA
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
-        <a href="https://shapes-music.de">Shapes Music</a>
+        <a href="https://shapes-music.de">shapes-music.de</a>
       </section>
 
       <h2>2021</h2>
       <section>
         <a href="https://alumni.ikv-aachen.de">
-          alumni.ikv-aachen.de - Alumni-SPA for the Institute of Plastics
-          Processing
+          alumni.ikv-aachen.de - Alumni-SPA
+          <small> For The Institute of Plastics Processing</small>
         </a>
+        <a href="https://3kubik.com">
+          3kubik.com -
+          <small>WordPress Divi website with REST driven calculator</small>
+        </a>
+        <a href="https://www.risiko-pille.de/">
+          risiko-pille.de - technical advisor
+        </a>
+        <a href="https://landhotel-hauer.de">
+          landhotel-hauer.de - WordPress Divi - technical finetuning
+        </a>
+        <a href="https://homo-digitalis.ch">
+          homo-digitalis.ch - WordPress Divi
+        </a>
+        <!-- <a href="#">
+Mitsubishi Tool
+        </a> -->
         <a href="https://www.bretagneurlaub.de">
-          bretagneurlaub.de - Holidayhome Website, Nuxt.js Headless WP
+          bretagneurlaub.de - Holidayhome website, Nuxt.js headless WP
         </a>
         <a href="https://stoke-borchert.de">
-          Stoke Borchert - Relaunch as Responsive
+          Stoke Borchert - relaunch as responsive
         </a>
         <a href="https://oyess.de/">
           Oyess - Winner of the German Sustainability Award 2022
         </a>
-        <a href="http://minzeven.nl/"> minzeven.nl - Netherlands Winery </a>
         <a href="https://shop.gillrath.de/">
-          shop.gillrath.de - Simple Web-Shop
+          shop.gillrath.de - basic web shop
         </a>
         <a href="https://jobs.gillrath.de/">
-          jobs.gillrath.de - Simple Jobs Board - Optimised For Speed
+          jobs.gillrath.de - basic jobs board - optimised for speed
         </a>
-        <a href="https://ai-pi.com"> Ai Pi </a>
+        <a href="https://ai-pi.io"> aipi - WP - Divi </a>
       </section>
       <h2>2020</h2>
 
       <section>
-        <strike>Live Conference CMS / Offline</strike>
-        <a href="https://neazubi.de"> neazubi.de - Design by NEA</a>
+        <strike>Online Conference CMS for IKV / Offline</strike>
+        <a href="http://minzeven.nl/">
+          minzeven.nl - WP & Divi - dutch winery
+        </a>
+        <a href="https://neazubi.de">
+          neazubi.de WordPress Divi - design by NEA
+        </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
-        <strike><a href="https://olli-electro.de"> Olli Elektro</a></strike>
+        <strike>
+          <a href="https://olli-electro.de"> Olli Elektro </a>
+        </strike>
         <a href="https://portfolio.digital-noises.de/www.olli-elektro.de/">
           Olli Elektro - Backup
         </a>
@@ -52,12 +74,13 @@
       <section>
         <strike>
           <a href="https://hamecker.de/" title="hamecker.de">
-            Hamecker / WordPress & DIVI
+            Hamecker / WordPress
           </a>
         </strike>
-        <a href="https://www.cafehoffmann.de" title="cafehoffmann.de"
+        <!-- <a href="https://www.cafehoffmann.de" title="cafehoffmann.de"
           >Cafe Hoffmann / WordPress & DIVI
         </a>
+         -->
         <a
           href="https://www.dentallabor-teeuwen.de"
           title="dentallabor-teeuwen.de"
@@ -73,24 +96,34 @@
         >
         <a href="https://weinshop.wilker.de/shop">
           weinshop.wilker.de/shop
-          <small>jQuery Rewriting of the product-presentation</small>
+          <small>jQuery Rewriting Of The Product-Presentation</small>
+        </a>
+
+        <h3>for www.schlicht-und-ergreifend.de:</h3>
+        <a href="https://www.imo-galle.de/en/">
+          imo-galle.de — WordPress-Theme From Scratch
+        </a>
+
+        <a href="https://johndiva.com/">
+          johndiva.com
+          <small>NUXT.js With WordPress From Scratch</small>
         </a>
       </section>
       <h2>2018</h2>
       <section>
         <a href="https://www.nielsgaury.de/" title="nielsgaury.de">
-          Niels Gaury <small>First headless WordPress with VUE.js</small>
+          Niels Gaury <small>First Headless WordPress With VUE.js</small>
         </a>
         <a href="https://knoblauchwuerze.de/" title="knoblauchwuerze.de">
           Hägele Knoblauchwürze
-          <small>WordPress screendesign with DIVI</small>
+          <small>WordPress Screen Design with DIVI</small>
         </a>
         <a href="https://www.wilker.de"
-          >Weingut Wilker <small>WordPress screendesign with DIVI</small></a
+          >Weingut Wilker <small>WordPress Screen Design With DIVI</small></a
         >
         <a href="http://klinkerzaun.com/"
           >Gillrath Klinkerzaun
-          <small>WordPress screendesign from scratch</small></a
+          <small>WordPress Screen Design From Scratch</small></a
         >
         <a href="https://weareoneconvention.com"
           >We Are One Convention <small>Technical Support</small></a
@@ -111,36 +144,50 @@
       <h2>2017</h2>
       <section>
         <a href="https://www.toepferei-oberheid.de/">Töpferei Oberheid</a>
-        <a href="http://auto-service-twardowski.de"
-          >Auto Service Twardowski <small>Incl. Photography</small></a
-        >
+        <a href="http://auto-service-twardowski.de">
+          Auto Service Twardowski <small>incl. photography</small>
+        </a>
         <a
           href="http://tueschenbroichermuehlenverein.de/"
           title="http://tueschenbroichermuehlenverein.de/"
-          >Tüschenbroicher Mühlen-Verein</a
         >
+          Tüschenbroicher Mühlen-Verein
+        </a>
         <strike>
           <a href="http://optik-alberty.de">
             Optik Alberty
-            <small>WordPress-Theme from Scratch and Photography</small>
+            <small>WordPress theme from scratch and photography</small>
           </a>
         </strike>
+        <!-- <a href="https://portfolio.digital-noises.de/www.optik-alberty.de/">
+            Optik Alberty
+            <small>WordPress theme from scratch and photography</small>
+          </a> -->
+
         <h3>for your-agency.com:</h3>
         <a href="http://www.curlsfight.com"></a>
         <a href="http://www.parfuemerie-meller.de"></a>
-        <a href="https://www.costrade.at"
-          >https://www.costrade.at <small>Technical Support</small></a
-        >
+        <a href="https://www.costrade.at">
+          https://www.costrade.at <small>technical support</small>
+        </a>
 
         <h3>for www.schlicht-und-ergreifend.de:</h3>
-        <a href="http://talkcitizen.org"
-          >TalkCitizen <small>WP Theme from Scratch</small></a
-        >
-        <a href="http://bronk-company.com"
-          >Bronk Company Relaunch <small>WP Theme from Scratch</small></a
-        >
-        <a href="http://metalmeets.com">Metal Meets Relaunch</a>
-
+        <strike>
+          <a href="http://talkcitizen.org">
+            TalkCitizen <small>WP Theme from scratch</small>
+          </a>
+        </strike>
+        <a href="https://portfolio.digital-noises.de/talkcitizen.org/">
+          TalkCitizen <small>hard rendered backup with errors</small>
+        </a>
+        <strike>
+          <a href="http://bronk-company.com">
+            Bronk Company Relaunch <small>WP theme from scratch</small>
+          </a>
+        </strike>
+        <strike>
+          <a href="http://metalmeets.com">Metal Meets Relaunch</a>
+        </strike>
         <h3>for www.schroeder&shy;and&shy;friends.com:</h3>
         <strike>
           <a href="http://www.pursteucks.de"></a>
@@ -214,25 +261,25 @@
         <a href="http://www.schell-gruentechnik.de">Shell Grüntechnik</a>
         <a href="http://www.hochheuser.com">Hochheuser</a>
         <a href="http://geckoconsulting-ac.de">Geckoconsulting AC</a>
-      </section>
-      <h2>2016 based on my multisite- WordPress-system</h2>
-      <p>Custom Multisite Theme incl. Custom Plugins - Layout: Squarevisuals</p>
-      <section>
+        <h3>
+          based on my multisite - WordPress system
+          <small>incl. Custom Plugins - Layout: Squarevisuals</small>
+        </h3>
+
         <strike><a href="http://marahwoolf.de/">Marahwoolf</a></strike>
         <strike><a href="http://stormheart.de/">Stormheart</a></strike>
         <strike> <a href="http://animox-buch.de/">Animox</a> </strike
         ><strike> <a href="http://cjdaugherty.de">C.J. Daugherty</a></strike>
         <strike>
-          <a href="http://oetinger-ohrwuermchen.de"
-            >Oetinger Ohrwürmchen</a
-          ></strike
-        >
+          <a href="http://oetinger-ohrwuermchen.de"> Oetinger Ohrwürmchen </a>
+        </strike>
         <strike><a href="http://ghetto-bitch.de">Ghetto Bitch</a></strike>
         <strike>
           <a href="http://secrets-trilogie.de">Secrets Trilogie</a> </strike
         ><strike> <a href="http://monday-club.de">Monday Club</a></strike>
         <strike><a href="http://buecherstern.de">Bücherstern</a></strike>
       </section>
+
       <h2>2015</h2>
       <section>
         <strike>
@@ -440,7 +487,7 @@
           Sequentmedical 2013
         </a>
       </section>
-      <h2>artist site outdted</h2>
+      <h2>artist sites outdated</h2>
       <section>
         <strike><a href="http://www.johnnylogan.com"></a></strike>
         <strike><a href="http://www.kylie.de"></a></strike>
@@ -469,6 +516,7 @@ article,
   }
   h3 {
     margin-top: 1em;
+    font-size: 1.1em;
   }
 }
 a {
@@ -483,7 +531,7 @@ a:hover {
   text-align: right;
 }
 a:visited {
-  color: #f00;
+  color: #777;
 }
 
 ul {
