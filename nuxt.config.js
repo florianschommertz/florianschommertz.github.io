@@ -58,12 +58,15 @@ export default {
   },
   build: {
     babel: {
-      // plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
       presets: [
         [
           '@babel/preset-env',
           {
+            targets: {
+              esmodules: true,
+            },
             loose: true,
+            shippedProposals: true,
           },
         ],
       ],

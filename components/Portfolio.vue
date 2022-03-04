@@ -345,9 +345,9 @@ Mitsubishi Tool
         <a href="http://www.dassams.de">
           Das Sams <small>WP Theme from Scratch</small>
         </a>
-        <stike>
+        <strike>
           <a href="http://www.clubsante.eu">Support for Clubsante.eu</a>
-        </stike>
+        </strike>
         <a href="http://fahrschulmanufaktur.de">Fahrschulmanufaktur</a>
         <strike>
           <a href="http://www.pettersson-und-findus.de"
