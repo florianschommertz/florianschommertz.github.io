@@ -39,24 +39,30 @@
             REST driven calculator plugin
           </small>
         </a>
-        <a href="https://www.risiko-pille.de/">
-          risiko-pille.de - technical advisor
-        </a>
+        <!-- <a href="https://www.risiko-pille.de/">
+          risiko-pille.de -
+          <small> technical advisor </small>
+        </a> -->
         <a href="https://landhotel-hauer.de">
-          landhotel-hauer.de - WordPress Divi - technical finetuning
+          landhotel-hauer.de -
+          <small> technical finetuning </small>
         </a>
         <a href="https://homo-digitalis.ch">
-          homo-digitalis.ch - WordPress Divi
+          homo-digitalis.ch -
+          <small>initial setup and design for the owner </small>
         </a>
         <!-- <a href="#">
 Mitsubishi Tool
         </a> -->
         <a href="https://www.bretagneurlaub.de">
-          bretagneurlaub.de - Holidayhome website, Nuxt.js headless WP
+          bretagneurlaub.de -
+          <small>
+            a holidayhome website, Nuxt.js, extensive use of taxonomy and custom
+            post types. Design by Schroeder-And-Friends, SEO concept by
+            bretagneurlaub.de
+          </small>
         </a>
-        <a href="https://stoke-borchert.de">
-          Stoke Borchert - relaunch as responsive
-        </a>
+
         <a href="https://oyess.de/">
           Oyess - Winner of the German Sustainability Award 2022
         </a>
@@ -67,23 +73,42 @@ Mitsubishi Tool
           jobs.gillrath.de - basic jobs board - optimised for speed
         </a>
         <a href="https://ai-pi.io"> aipi - WP - Divi </a>
+
+        <h3>for www.schlicht-und-ergreifend.de:</h3>
+
+        <a href="https://stoke-borchert.de">
+          Stoke Borchert -
+          <small>
+            a Nuxt.js driven website with static texts and internationalisation.
+            / the hoverstate of the navigation is vanilla Javascript
+          </small>
+        </a>
       </section>
       <h2>2020</h2>
 
       <section>
         <strike>Online Conference CMS for IKV / Offline</strike>
         <a href="http://minzeven.nl/">
-          minzeven.nl - WP & Divi - dutch winery
+          minzeven.nl -
+          <small>
+            boutique winery with a neat usage of the Divi theme for WordPress
+          </small>
         </a>
         <a href="https://neazubi.de">
           neazubi.de WordPress Divi - design by NEA
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
         <strike>
-          <a href="https://olli-electro.de"> Olli Elektro </a>
+          <a href="https://olli-electro.de">
+            Olli Elektro –
+            <small>
+              speed optimised static website, with iterative design process on
+              the fly
+            </small>
+          </a>
         </strike>
         <a href="https://portfolio.digital-noises.de/www.olli-elektro.de/">
-          Olli Elektro - Backup
+          Olli Elektro - <small>Backup</small>
         </a>
       </section>
       <h2>2019</h2>
@@ -100,29 +125,39 @@ Mitsubishi Tool
         <a
           href="https://www.dentallabor-teeuwen.de"
           title="dentallabor-teeuwen.de"
-          >Dentallabor Teeuwen / WordPress & DIVI</a
         >
+          Dentallabor Teeuwen -
+          <small>basic WordPress driven website with Divi</small>
+        </a>
         <strike>
           <a href="http://blog.sigmasoft.de">
-            blog.sigmasoft.de <small>WP Theme from Scratch with CSS-Grid</small>
+            blog.sigmasoft.de -
+            <small>WP Theme from Scratch with CSS-Grid</small>
           </a>
         </strike>
         <a href="https://portfolio.digital-noises.de/blog.sigmasoft.de/"
-          >blog.sigmasoft — backup version</a
-        >
+          >blog.sigmasoft — <small>backup version</small>
+        </a>
         <a href="https://weinshop.wilker.de/shop">
           weinshop.wilker.de/shop
-          <small>jQuery Rewriting Of The Product-Presentation</small>
+          <small>
+            jQuery based DOM rewriting of an existing woocommerce output to
+            achieves new layout
+          </small>
         </a>
 
         <h3>for www.schlicht-und-ergreifend.de:</h3>
         <a href="https://www.imo-galle.de/en/">
-          imo-galle.de — WordPress-Theme From Scratch
+          imo-galle.de —
+          <small> WordPress theme from scratch </small>
         </a>
 
         <a href="https://johndiva.com/">
-          johndiva.com
-          <small>NUXT.js With WordPress From Scratch</small>
+          johndiva.com —
+          <small>
+            Nuxt.js frontend SPA with semi complex use of content nodes and
+            exclusive fan-club page
+          </small>
         </a>
       </section>
       <h2>2018</h2>

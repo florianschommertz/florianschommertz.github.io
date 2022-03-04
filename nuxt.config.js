@@ -20,7 +20,6 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -57,5 +56,17 @@ export default {
   generate: {
     dir: 'docs',
   },
-  build: {},
+  build: {
+    babel: {
+      // plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
+      presets: [
+        [
+          '@babel/preset-env',
+          {
+            loose: true,
+          },
+        ],
+      ],
+    },
+  },
 }
