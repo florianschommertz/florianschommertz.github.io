@@ -7,21 +7,37 @@
       <section>
         <h3>Work in Progress</h3>
         <a href="https://measx-frontend.digital-noises.de/start/">
-          Measx - complex Nuxt.Js driven PWA
+          Measx -
+          <small>
+            complex Nuxt.Js driven PWA — this weboroject uses and advanced page
+            builder with REST. It makes use of a taxonomy system
+          </small>
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
-        <a href="https://shapes-music.de">shapes-music.de</a>
+        <a href="https://shapes-music.de">
+          shapes-music.de —
+          <small>
+            basic website with a html5 video and loop listener, three.js was
+            used for the footer animation of the "s"
+          </small></a
+        >
       </section>
 
       <h2>2021</h2>
       <section>
         <a href="https://alumni.ikv-aachen.de">
           alumni.ikv-aachen.de - Alumni-SPA
-          <small> For The Institute of Plastics Processing</small>
+          <small>
+            a multiuser contacts app for the Institute of Plastics Processing
+          </small>
         </a>
         <a href="https://3kubik.com">
           3kubik.com -
-          <small>WordPress Divi website with REST driven calculator</small>
+          <small>
+            a CMS that makes use of advanced features of WordPress' mulitporpose
+            theme Divi, it features a »KPI-Tool« which is developed as a VUE.js
+            REST driven calculator plugin
+          </small>
         </a>
         <a href="https://www.risiko-pille.de/">
           risiko-pille.de - technical advisor

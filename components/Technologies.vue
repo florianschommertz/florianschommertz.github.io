@@ -6,9 +6,9 @@
       <li v-ranking="75">JavaScript</li>
       <li v-ranking="80">Vue.js</li>
       <li v-ranking="85">jQuery</li>
-      <li v-ranking="85" class="mt-3">WordPress</li>
-      <li v-ranking="40">Drupal</li>
-      <li v-ranking="70" class="mt-3">PHP</li>
+      <li v-ranking="90" class="mt-3">WordPress</li>
+      <li v-ranking="45">Drupal</li>
+      <li v-ranking="80" class="mt-3">PHP</li>
       <li v-ranking="60">MySql</li>
       <li v-ranking="98">CSS / animation</li>
       <li v-ranking="90">SASS / SCSS</li>
@@ -26,7 +26,7 @@
       <li v-ranking="70">JSON</li>
       <li v-ranking="35">GraphQl</li>
       <li class="mt-3">Basic knowledge:</li>
-      <li>git, node.js, i18n pwa, spa, ssr, vite, vitepress,elementor</li>
+      <li>node.js, i18n, ssr, vite, vitepress, elementor</li>
     </ul>
     <h3 class="mt-5">design & concept</h3>
     <ul>
@@ -41,8 +41,8 @@
     <ul>
       <li v-ranking="100">Logic Audio</li>
       <li v-ranking="50">Native Instruments</li>
-      <li v-ranking="80">Final Cut</li>
-      <li v-ranking="80">Motion</li>
+      <li v-ranking="60">Final Cut</li>
+      <li v-ranking="60">Motion</li>
     </ul>
     <h3 class="mt-5">UI/UX/CI/CJ/CX</h3>
 
