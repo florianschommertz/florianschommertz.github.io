@@ -583,18 +583,13 @@ li {
   width: 100%;
 }
 
-small:before {
-  content: '(';
-}
-small:after {
-  content: ')';
-}
+// small:before {
+//   content: '(';
+// }
+// small:after {
+//   content: ')';
+// }
 a[href^='http']:empty::before {
   content: attr(href);
-}
-header {
-  position: fixed;
-  background: #fff;
-  width: 100%;
 }
 </style>

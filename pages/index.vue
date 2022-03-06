@@ -101,12 +101,12 @@ export default {}
 }
 :root {
   --v: 1.2vmin;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
 }
 @media screen and (max-width: 1400px) {
   :root {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 body {
@@ -122,31 +122,31 @@ a {
   color: #000;
   width: 100%;
   border-bottom: 1px transparent dotted;
-  padding: 0 0em;
+  padding: 0.5em 0em;
 }
-a:hover {
-  border-bottom-color: #000;
+a:is(:hover, :active) {
+  // border-bottom-color: #000;
   color: #000;
   text-align: right;
-  padding: 0 0.5em;
+  padding: 0.5em 0.5em;
   transition: padding 0.3s ease-in-out;
 }
 a:visited {
-  color: #777;
+  color: #5557;
 }
-a:before {
+a:after {
   background: #fff;
   content: '';
   inset: 0;
   position: absolute;
-  transform: scaleX(0) scaleY(1.5);
+  transform: scaleX(0) scaleY(1.3);
   transform-origin: right;
   transition: transform 0.2s ease-in-out;
   z-index: -1;
 }
 
-a:hover:before {
-  transform: scaleX(1) scaleY(1.5);
+a:is(:hover, :active):after {
+  transform: scaleX(1) scaleY(1.3);
   transform-origin: left;
 }
 p {
