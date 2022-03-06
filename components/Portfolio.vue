@@ -31,6 +31,10 @@
             a multiuser contacts app for the Institute of Plastics Processing
           </small>
         </a>
+        <a href="https://diaedge-platform.mmc-hardmetal.com/">
+          Diaedge Platform, MMC Hardmetal –
+          <small> freelance Vue.js developer work for walbert-schmitz </small>
+        </a>
         <a href="https://3kubik.com">
           3kubik.com -
           <small>
@@ -561,10 +565,7 @@ article,
   section + h2 {
     margin-top: 2em;
   }
-  h2,
-  h3 {
-    font-weight: bold;
-  }
+
   h3 {
     margin-top: 1em;
     font-size: 1.1em;

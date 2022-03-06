@@ -66,25 +66,24 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col cols="9">
-          <Education />
+        <b-col cols="7">
+          <Portfolio class=" " />
+          <!-- <Education /> -->
         </b-col>
-        <b-col>
+        <b-col class="col-offset-2" cols="3">
           <Languages />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="9">
-          <Experience />
-          <Portfolio class="mt-5" />
-        </b-col>
-        <b-col>
           <Technologies />
         </b-col>
       </b-row>
-      <b-row>
+      <!-- <b-row>
+        <b-col cols="9">
+          <Experience />
+        </b-col>
         <b-col> </b-col>
       </b-row>
+      <b-row>
+        <b-col> </b-col>
+      </b-row> -->
     </b-container>
   </main>
 </template>
@@ -110,6 +109,25 @@ body {
 .p {
   position: absolute;
   border-radius: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+h1,
+h2 {
+  font-weight: bold;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 @keyframes p-animation-main {
   0% {
