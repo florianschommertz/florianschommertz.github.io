@@ -33,58 +33,28 @@
       <div class="p"></div>
       <div class="p"></div>
     </div>
-    <b-container>
-      <b-row class="row">
-        <b-col cols="9">
-          Florian Schommertz<br />
-          Dipl. Sound Engineer (SAE)<br />
-          Dipl. Media-Designer (FH)
-        </b-col>
-        <b-col>
-          web · social media · av<br />
-          design / ux / code / seo
-        </b-col>
-        <b-col class="mt">
-          <p>
-            advisor / consultant / developer for:<br />
-            web / audio / video<br />
-            website-performance<br />
-            wordpress themes<br />
-            ux
-          </p>
-          <p>
-            f@schommertz.com // tel: +49 2434.30 83 890<br />
-            skype: florianschommertz // nz: +64 22 089 5068
-          </p>
-          <p>
-            Germany + Sankt Rochusweiler 13a + 41844 Wegberg // USt-IdNr.:
-            DE195532753<br />
-            <!-- New Zealand + 9 Dalmeny Close + Murrays Bay, North
-            Shore, 0630 co. Thomas<br /> -->
-            https://florian.schommertz.com ++++
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="7">
-          <Portfolio class=" " />
-          <!-- <Education /> -->
-        </b-col>
-        <b-col class="col-offset-2" cols="3">
-          <Languages />
-          <Technologies />
-        </b-col>
-      </b-row>
-      <!-- <b-row>
-        <b-col cols="9">
-          <Experience />
-        </b-col>
-        <b-col> </b-col>
-      </b-row>
-      <b-row>
-        <b-col> </b-col>
-      </b-row> -->
-    </b-container>
+
+    <div twocolumngrid>
+      <FlorianSchommertz
+        class="hasGridAreaVar"
+        style="--gridArea: FlorianSchommertz"
+      />
+      <FlorianSlogan class="hasGridAreaVar" style="--gridArea: FlorianSlogan" />
+      <FlorianAddress
+        class="hasGridAreaVar"
+        style="--gridArea: FlorianAddress"
+      />
+
+      <Portfolio class="hasGridAreaVar" style="--gridArea: Portfolio" />
+
+      <Languages
+        class="Languages hasGridAreaVar"
+        style="--gridArea: Languages"
+      />
+      <Technologies class="hasGridAreaVar" style="--gridArea: Technologies" />
+      <!--
+       -->
+    </div>
   </main>
 </template>
 
@@ -96,14 +66,59 @@ export default {}
 :root {
   --v: 1.2vmin;
 }
-.row {
-  & + .row,
-  .mt {
-    margin-top: 2em;
-  }
-}
+
 body {
   background: #ccc;
+}
+
+[twocolumngrid] {
+  display: grid;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 2em;
+  grid-template-columns: 3fr 1fr;
+  // grid-auto-rows: minmax(min-content, max-content);
+
+  grid-template-areas:
+    'FlorianSchommertz FlorianSlogan'
+    'FlorianAddress .'
+    'Portfolio Languages'
+    'Portfolio Technologies';
+  // grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  align-items: self-start;
+}
+.Languages {
+  // height: 40px;
+  outline: 1px solid red;
+}
+@media (max-width: 1200px) {
+  [twocolumngrid] {
+    max-width: 87vw;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  [twocolumngrid] {
+    max-width: 90vw;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  [twocolumngrid] {
+    max-width: 90vw;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'FlorianSlogan'
+      'FlorianSchommertz'
+      'FlorianAddress'
+      'Languages'
+      'Technologies'
+      'Portfolio';
+  }
+}
+
+.hasGridAreaVar {
+  grid-area: var(--gridArea);
 }
 
 .p {
