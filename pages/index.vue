@@ -212,10 +212,12 @@ h6 {
   font-size: 1em;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-weight: bold;
+  letter-spacing: 0.03em;
 }
-h3,
+
 h4,
 h5,
 h6 {

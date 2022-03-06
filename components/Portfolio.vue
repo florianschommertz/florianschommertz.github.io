@@ -559,36 +559,16 @@ export default {}
 <style lang="scss" scoped>
 article,
 .article {
-  margin: 0 auto;
-  text-align: left;
-
   section + h2 {
     margin-top: 2em;
   }
-
   h3 {
-    margin-top: 1em;
-    font-size: 1.1em;
+    margin-top: 1.25em;
   }
 }
-
 a {
   display: block;
 }
-ul {
-  margin-bottom: 2em;
-}
-li {
-  display: block;
-  width: 100%;
-}
-
-// small:before {
-//   content: '(';
-// }
-// small:after {
-//   content: ')';
-// }
 a[href^='http']:empty::before {
   content: attr(href);
 }
