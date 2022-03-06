@@ -63,34 +63,111 @@ export default {}
 </script>
 
 <style lang="scss">
+/* alegreya-sans-regular - latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-regular.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-regular.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* alegreya-sans-800 - latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+    url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-800.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-800.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* alegreya-sans-900 - latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+    url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-900.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/alegreya-sans-v20-latin/alegreya-sans-v20-latin-900.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 :root {
   --v: 1.2vmin;
+  font-size: 1.2vw;
+  font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
 }
-
+@media screen and (max-width: 1400px) {
+  :root {
+    font-size: 18px;
+  }
+}
 body {
   background: #ccc;
 }
+pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  border-bottom: 1px transparent dotted;
+  padding: 0 0em;
+}
+a:hover {
+  border-bottom-color: #000;
+  color: #000;
+  text-align: right;
+  padding: 0 0.5em;
+  transition: padding 0.3s ease-in-out;
+}
+a:visited {
+  color: #777;
+}
+a:before {
+  background: #fff;
+  content: '';
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0) scaleY(1.5);
+  transform-origin: right;
+  transition: transform 0.2s ease-in-out;
+  z-index: -1;
+}
 
+a:hover:before {
+  transform: scaleX(1) scaleY(1.5);
+  transform-origin: left;
+}
+p {
+  padding: 0 0 2em 0;
+}
 [twocolumngrid] {
   display: grid;
   max-width: 80vw;
   margin: 0 auto;
   gap: 2em;
+
   grid-template-columns: 3fr 1fr;
-  // grid-auto-rows: minmax(min-content, max-content);
 
   grid-template-areas:
     'FlorianSchommertz FlorianSlogan'
     'FlorianAddress .'
     'Portfolio Languages'
-    'Portfolio Technologies';
-  // grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-  align-items: self-start;
+    'Portfolio Technologies'
+    'Portfolio .';
 }
-.Languages {
-  // height: 40px;
-  outline: 1px solid red;
-}
+
 @media (max-width: 1200px) {
   [twocolumngrid] {
     max-width: 87vw;

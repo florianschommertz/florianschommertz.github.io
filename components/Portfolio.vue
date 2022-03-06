@@ -571,21 +571,10 @@ article,
     font-size: 1.1em;
   }
 }
-a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  width: 100%;
-  border-bottom: 1px transparent dotted;
-}
-a:hover {
-  border-bottom-color: #000;
-  text-align: right;
-}
-a:visited {
-  color: #777;
-}
 
+a {
+  display: block;
+}
 ul {
   margin-bottom: 2em;
 }
@@ -593,9 +582,7 @@ li {
   display: block;
   width: 100%;
 }
-p {
-  padding: 0 0 2em 0;
-}
+
 small:before {
   content: '(';
 }
