@@ -141,7 +141,8 @@ a:after {
   position: absolute;
   transform: scaleX(0) scaleY(1.3);
   transform-origin: right;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  border-radius: 0.5em;
   z-index: -1;
 }
 
