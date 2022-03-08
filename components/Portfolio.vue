@@ -112,7 +112,7 @@ Mitsubishi Tool
           </a>
         </strike>
         <a href="https://portfolio.digital-noises.de/www.olli-elektro.de/">
-          Olli Elektro - <small>Backup</small>
+          Olli Elektro - <small>Backup Version</small>
         </a>
       </section>
       <h2>2019</h2>
@@ -126,6 +126,10 @@ Mitsubishi Tool
           >Cafe Hoffmann / WordPress & DIVI
         </a>
          -->
+
+        <!-- <a href="https://elektro-weltrekordflug.eu">
+          Elektro Weltrekordflug <small>Support</small>
+        </a> -->
         <a
           href="https://www.dentallabor-teeuwen.de"
           title="dentallabor-teeuwen.de"
@@ -136,7 +140,7 @@ Mitsubishi Tool
         <strike>
           <a href="http://blog.sigmasoft.de">
             blog.sigmasoft.de -
-            <small>WP Theme from Scratch with CSS-Grid</small>
+            <small>WP-Theme from scratch with CSS-Grid</small>
           </a>
         </strike>
         <a href="https://portfolio.digital-noises.de/blog.sigmasoft.de/"
@@ -145,8 +149,8 @@ Mitsubishi Tool
         <a href="https://weinshop.wilker.de/shop">
           weinshop.wilker.de/shop
           <small>
-            jQuery based DOM rewriting of an existing woocommerce output to
-            achieves new layout
+            jQuery based DOM rewriting of an existing WooCommerce output to
+            create new layout
           </small>
         </a>
 
@@ -178,7 +182,7 @@ Mitsubishi Tool
         >
         <a href="http://klinkerzaun.com/"
           >Gillrath Klinkerzaun
-          <small>WordPress Screen Design From Scratch</small></a
+          <small>WordPress Screen Design From scratch</small></a
         >
         <a href="https://weareoneconvention.com"
           >We Are One Convention <small>Technical Support</small></a
@@ -236,12 +240,12 @@ Mitsubishi Tool
           TalkCitizen <small>hard rendered backup with errors</small>
         </a>
         <strike>
-          <a href="http://bronk-company.com">
-            Bronk Company Relaunch <small>WP theme from scratch</small>
+          <a href="https://bronk-company.com">
+            Bronk Company relaunch <small>WP theme from scratch</small>
           </a>
         </strike>
         <strike>
-          <a href="http://metalmeets.com">Metal Meets Relaunch</a>
+          <a href="http://metalmeets.com">Metal Meets relaunch</a>
         </strike>
         <h3>for www.schroeder&shy;and&shy;friends.com:</h3>
         <strike>
@@ -249,30 +253,28 @@ Mitsubishi Tool
         </strike>
         <h3>for www.fauck-grafikdesign.de:</h3>
         <strike>
-          <a href="http://www.kp-brandconcept.com"></a>
+          <a href="http://www.kp-brandconcept.com">KP Brandconcept</a>
         </strike>
 
         <h3>for bykuchel.de:</h3>
-        <a href="http://www.bpwk.de"
-          >BPWK // Technischer Ansprechpartner / Ergänzungen</a
-        >
+        <a href="http://www.bpwk.de">BPWK // technical assistant / addons</a>
       </section>
       <h2>2016</h2>
       <section>
         <strike>
           <a href="http://fdi-secrets.de">
-            FDI Secrets <small>WP Theme from Scratch</small>
+            FDI Secrets <small>WP Theme from scratch</small>
           </a>
         </strike>
 
         <a href="https://portfolio.digital-noises.de/www.fdi-secrets.de/">
-          FDI Secrets <small>Backup</small>
+          FDI Secrets <small>Backup Version</small>
         </a>
-        <a href="http://hosted.comnia.de/3cx">
+        <a href="https://hosted.comnia.de/3cx">
           Hosted 3CX, by Comnia
           <small>WordPress & DIVI</small>
         </a>
-        <a href="http://voip.comnia.de">
+        <a href="https://voip.comnia.de">
           VOIP by Comnia
           <small>WordPress & DIVI</small>
         </a>
@@ -280,39 +282,44 @@ Mitsubishi Tool
           href="http://www.michels-blumen.de/"
           title="http://www.michels-blumen.de/"
         >
-          Michels Blumen.de - Relaunch <small>WP Theme from Scratch</small>
+          Michels Blumen.de - Relaunch <small>WP Theme from scratch</small>
         </a>
-        <a
-          href="http://i-love-tigi.de/colourtrip/"
-          title="http://i-love-tigi.de/colourtrip/"
-          >http://i-love-tigi.de/colourtrip/</a
-        >
-        <a href="http://fashion-design-institut.de">
-          Fashion Design Institut <small>WP Theme from Scratch</small>
+
+        <strike>
+          <a
+            href="http://i-love-tigi.de/colourtrip/"
+            title="http://i-love-tigi.de/colourtrip/"
+          >
+            http://i-love-tigi.de/colourtrip/
+          </a>
+        </strike>
+        <a href="https://fashion-design-institut.de">
+          Fashion Design Institut
+          <small>WP Theme from scratch, maintained by third party</small>
         </a>
-        <a href="http://www.b-w-international.com">
-          Technical Support for B&W International
+        <a href="https://www.b-w-international.com">
+          Technical Support for B&amp;W International
         </a>
         <h3>for www.your-agency.com:</h3>
         <a href="http://www.gianni-dassero.com">
-          Gianni D‘Assero <small>WP Theme from Scratch</small>
+          Gianni D‘Assero <small>WP Theme from scratch</small>
         </a>
         <a href="http://www.tigi-hafencity-salon.com">
-          Tigi Hafencity <small>WP Theme from Scratch</small>
+          Tigi Hafencity <small>WP Theme from scratch</small>
         </a>
         <a href="http://i-love-tigi.de/247app/toappstore">
           TIGI 2/47APP Marketing <small>ios Marketing</small>
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
         <a href="http://www.hoehler-neumann.de">
-          Hoehler Neumann Anwälte aus Aachen Relaunch
-          <small>WP Theme from Scratch</small>
+          Hoehler Neumann Lawyers, Aachen relaunch
+          <small>WP Theme from scratch</small>
         </a>
         <h3>for www.schroeder&shy;and&shy;friends.com:</h3>
         <small>Technical Support for</small>
-        <a href="http://www.schroeder&shy;and&shy;friends.com"
-          >Schroeder and Friends</a
-        >
+        <a href="http://www.schroeder&shy;and&shy;friends.com">
+          Schroeder and Friends
+        </a>
         <a href="http://www.schell-gruentechnik.de">Shell Grüntechnik</a>
         <a href="http://www.hochheuser.com">Hochheuser</a>
         <a href="http://geckoconsulting-ac.de">Geckoconsulting AC</a>
@@ -330,8 +337,9 @@ Mitsubishi Tool
         </strike>
         <strike><a href="http://ghetto-bitch.de">Ghetto Bitch</a></strike>
         <strike>
-          <a href="http://secrets-trilogie.de">Secrets Trilogie</a> </strike
-        ><strike> <a href="http://monday-club.de">Monday Club</a></strike>
+          <a href="http://secrets-trilogie.de">Secrets Trilogie</a>
+        </strike>
+        <strike><a href="http://monday-club.de">Monday Club</a></strike>
         <strike><a href="http://buecherstern.de">Bücherstern</a></strike>
       </section>
 
@@ -339,15 +347,15 @@ Mitsubishi Tool
       <section>
         <strike>
           <a href="http://www.dietributevonpanem.de">
-            Die Tribute von Panem <small>WP Theme from Scratch</small>
+            Die Tribute von Panem <small>WP Theme from scratch</small>
           </a>
         </strike>
 
         <a href="http://olchis.de">
-          Die Olchis <small>WP Theme from Scratch</small>
+          Die Olchis <small>WP Theme from scratch</small>
         </a>
         <a href="http://www.dassams.de">
-          Das Sams <small>WP Theme from Scratch</small>
+          Das Sams <small>WP Theme from scratch</small>
         </a>
         <strike>
           <a href="http://www.clubsante.eu">Support for Clubsante.eu</a>
@@ -355,26 +363,26 @@ Mitsubishi Tool
         <a href="http://fahrschulmanufaktur.de">Fahrschulmanufaktur</a>
         <strike>
           <a href="http://www.pettersson-und-findus.de"
-            >Petterson und Findus <small>WP Theme from Scratch</small></a
+            >Petterson und Findus <small>WP Theme from scratch</small></a
           >
         </strike>
         <strike>
           <a href="http://malunamondschein.de"
-            >Maluna Mondschein <small>WP Theme from Scratch</small></a
+            >Maluna Mondschein <small>WP Theme from scratch</small></a
           ></strike
         >
 
         <a href="http://funke-buch.de"
-          >Cornelia Funke · Reckless <small>WP Theme from Scratch</small></a
+          >Cornelia Funke · Reckless <small>WP Theme from scratch</small></a
         >
         <a href="http://www.notare-svk.de"
-          >Notare SVK <small>WP Theme from Scratch</small></a
+          >Notare SVK <small>WP Theme from scratch</small></a
         >
         <a href="http://diagnostik-hilft.de"
-          >Diagnostik Hilft <small>WP Theme from Scratch</small></a
+          >Diagnostik Hilft <small>WP Theme from scratch</small></a
         >
         <a href="http://norbert-greuel.de"
-          >Norbert Greuel <small>WP Theme from Scratch</small></a
+          >Norbert Greuel <small>WP Theme from scratch</small></a
         >
         <a href="http://www.oldcountryhousenz.com/"
           >Old Countryhouse Christchurch
@@ -396,27 +404,27 @@ Mitsubishi Tool
           ></strike
         >
         <a href="http://www.abtei-gerleve.de"
-          >Abtei Gerleve <small>WP Theme from Scratch</small></a
+          >Abtei Gerleve <small>WP Theme from scratch</small></a
         >
         <a href="http://www.michels-blumen.de/">Michels Blumen</a>
         <a href="http://fashion-design-institut.de"
           >fashion-design-institut.de (responsive relaunch)
-          <small>WP Theme from Scratch</small></a
+          <small>WP Theme from scratch</small></a
         >
         <strike>
           <a href="http://sigmasoft.de"
-            >sigmasoft.de relaunch <small>WP Theme from Scratch</small></a
+            >sigmasoft.de relaunch <small>WP Theme from scratch</small></a
           >
         </strike>
 
-        <a href="http://colorissima.de">WordPress from Scratch</a>
-        <a href="http://boot-folierung.de/">WordPress from Scratch</a>
+        <a href="http://colorissima.de">WordPress from scratch</a>
+        <a href="http://boot-folierung.de/">WordPress from scratch</a>
       </section>
 
       <h2>2014</h2>
       <section>
         <a href="http://praxisamrathausplatz.de">
-          Praxis am Rathausplatz <small>WP-Theme from Scratch</small>
+          Praxis am Rathausplatz <small>WP-Theme from scratch</small>
         </a>
         <!--
             <a href="http://ecoseaker.nz" title="Swim with Dolphins in Akaroa" class="">Ecoseaker</a>
@@ -436,17 +444,17 @@ Mitsubishi Tool
         <a href="http://sina-lindberg.de"></a>
         <a href="http://d.iorama.de"></a>
         <a href="http://gillrath.de"
-          >Gillrath <small>WP Theme from Scratch</small></a
+          >Gillrath <small>WP Theme from scratch</small></a
         >
         <!-- <strike>
           <a href="http://www.spg-steiner.com">
-            SPG Steiner <small>WP Theme from Scratch</small>
+            SPG Steiner <small>WP Theme from scratch</small>
           </a>
         </strike> -->
         <a href="http://fotos.chmidt.net"></a>
         <strike><a href="http://bronk-company.com"></a></strike>
         <a href="http://auge-wegberg.de"
-          >Augenarzt Wegberg <small>WP Theme from Scratch</small></a
+          >Augenarzt Wegberg <small>WP Theme from scratch</small></a
         >
       </section>
       <h2>2013</h2>
@@ -472,30 +480,32 @@ Mitsubishi Tool
       <h2>2012</h2>
       <section>
         <a href="http://www.buerofueraufmerksamkeit.de">
-          buerofueraufmerksamkeit - Theme from Scratch
+          buerofueraufmerksamkeit - Theme from scratch
         </a>
-        <a href="http://oberste-beulmann.de"></a>
+        <strike>
+          <a href="https://oberste-beulmann.de">Oberste Beulmann</a>
+        </strike>
         <a href="https://www.digital-noises.com">Digital Noises</a>
-        <a href="http://atelieretage-wegberg.de"></a>
+        <a href="https://atelieretage-wegberg.de/">Atelieretage Wwegberg</a>
         <strike> <a href="http://www.ena-beratung.de"></a></strike>
-        <a href="http://www.your-agency.com"></a>
+        <strike> <a href="http://www.your-agency.com"></a></strike>
         <a href="http://www.hoehler-neumann.de"></a>
         <a href="http://www.darius-mattheisen.de"></a>
         <strike> <a href="http://www.savanald.de"></a></strike>
         <strike> <a href="http://www.schlemmermarkt-wassenberg.de"></a></strike>
         <strike><a href="http://homecare-aachen.de"></a></strike>
-        <a href="http://anna-maria-maile.de"></a>
+        <a href="https://anna-maria-maile.de">Anna-Maria Maile</a>
         <a href="http://stoke-borchert.de"></a>
         <strike> <a href="http://sequent-medical.com"></a> </strike>
       </section>
       <h2>2012 /developed with my trainee</h2>
       <section>
-        <a href="http://www.vitalliin.de"></a>
-        <a href="http://minigolf-wegberg.de"></a>
-        <a href="http://www.landhausbrender.de"></a>
-        <a href="http://www.startarevolution.de"></a>
-        <a href="http://www.catchme-music.de"></a>
-        <a href="http://www.wilker.de">Weingut Wilker</a>
+        <a href="https://www.vitalliin.de">Vitalliin</a>
+        <a href="http://minigolf-wegberg.de">Minigolf Wegberg</a>
+        <a href="https://www.landhausbrender.de">Landhaus Brender</a>
+        <a href="https://www.startarevolution.de">Start a Revolution</a>
+        <strike> <a href="http://www.catchme-music.de"></a></strike>
+        <a href="https://www.wilker.de">Weingut Wilker</a>
       </section>
       <h2>2011</h2>
       <section>
@@ -511,19 +521,19 @@ Mitsubishi Tool
       <h2>2010 and older</h2>
       <section>
         <a href="https://oliebe.com/">Oliebe</a>
-        <a href="http://www.georg-maas.eu/en/"></a>
+        <a href="http://www.georg-maas.eu/en/">Georg-Maas</a>
         <strike> <a href="http://www.jansen-textil.de"></a></strike>
         <strike> <a href="http://www.hifi-schluderbacher.de"></a></strike>
-        <a href="http://www.auge-wegberg.de"></a>
+        <a href="https://www.auge-wegberg.de"></a>
         <a href="http://michels-blumen.de"></a>
-        <a href="http://www.musikkeller.com">
+        <a href="https://www.musikkeller.com">
           Musikkeller - First Webseite with MySql from scratch
         </a>
-        <a href="http://www.kgsoiron.de/soiron/"></a>
+        <a href="https://www.kgsoiron.de/">Ssoiron</a>
         <strike> <a href="http://www.bvsa.de"></a></strike>
         <strike> <a href="http://zplusm.de"></a></strike>
         <strike> <a href="http://vitalpraxis-roetgen.de"></a></strike>
-        <a href="http://zytologie-buettner.de"></a>
+        <a href="https://zytologie-buettner.de"></a>
         <strike> <a href="http://gefaessmedizin.info"></a></strike>
         <strike> <a href="http://www.simpatec.com"></a></strike>
         <strike> <a href="http://www.loening.eu"></a></strike>
