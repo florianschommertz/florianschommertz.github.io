@@ -10,7 +10,8 @@
           Measx -
           <small>
             complex Nuxt.Js driven PWA — this weboroject uses and advanced page
-            builder with REST. It makes use of a taxonomy system
+            builder with REST. It makes use of a taxonomy system / design/layout
+            by me and buerofueraufmerksamkeit
           </small>
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
@@ -28,7 +29,8 @@
         <a href="https://alumni.ikv-aachen.de">
           alumni.ikv-aachen.de - Alumni-SPA
           <small>
-            a multiuser contacts app for the Institute of Plastics Processing
+            a multiuser contacts app for the Institute of Plastics Processing,
+            my layout
           </small>
         </a>
         <a href="https://diaedge-platform.mmc-hardmetal.com/">
@@ -53,7 +55,10 @@
         </a>
         <a href="https://homo-digitalis.ch">
           homo-digitalis.ch -
-          <small>initial setup and design for the owner </small>
+          <small
+            >initial setup and design for the owner, my layout, now maintend by
+            owner
+          </small>
         </a>
         <!-- <a href="#">
 Mitsubishi Tool
@@ -74,7 +79,7 @@ Mitsubishi Tool
           shop.gillrath.de - basic web shop
         </a>
         <a href="https://jobs.gillrath.de/">
-          jobs.gillrath.de - basic jobs board - optimised for speed
+          jobs.gillrath.de - basic jobs board - optimised for speed, my layout
         </a>
         <a href="https://ai-pi.io"> aipi - WP - Divi </a>
 
@@ -384,50 +389,56 @@ Mitsubishi Tool
         <a href="http://norbert-greuel.de"
           >Norbert Greuel <small>WP Theme from scratch</small></a
         >
-        <a href="http://www.oldcountryhousenz.com/"
-          >Old Countryhouse Christchurch
+        <a href="http://www.oldcountryhousenz.com/">
+          Old Countryhouse Christchurch
           <small>WordPress & DIVI</small>
         </a>
         <strike>
-          <a href="http://www.european-inspire.com"
-            >SEO - Marketing-Help</a
-          ></strike
-        >
+          <a href="http://www.european-inspire.com">
+            Kyocera SEO - Marketing Help
+          </a>
+        </strike>
         <strike>
-          <a href="http://www.geheim-garten.de"
-            >Geheimgarten outdated / offline</a
-          ></strike
-        >
+          <a href="http://www.geheim-garten.de">
+            Geheimgarten
+            <small>outdated / offline / furniture online shop</small>
+          </a>
+        </strike>
         <strike>
-          <a href="http://www.elliott-homestaging.de"
-            >outdated / offline</a
-          ></strike
-        >
-        <a href="http://www.abtei-gerleve.de"
-          >Abtei Gerleve <small>WP Theme from scratch</small></a
-        >
+          <a href="http://www.elliott-homestaging.de">outdated / offline</a>
+        </strike>
+        <a href="https://www.abtei-gerleve.de">
+          Abtei Gerleve <small>WP Theme from scratch</small>
+        </a>
         <a href="http://www.michels-blumen.de/">Michels Blumen</a>
-        <a href="http://fashion-design-institut.de"
-          >fashion-design-institut.de (responsive relaunch)
-          <small>WP Theme from scratch</small></a
-        >
+        <a href="https://fashion-design-institut.de">
+          fashion-design-institut.de (responsive relaunch)
+          <small>WP Theme from scratch</small>
+        </a>
         <strike>
-          <a href="http://sigmasoft.de"
-            >sigmasoft.de relaunch <small>WP Theme from scratch</small></a
-          >
+          <a href="http://sigmasoft.de">
+            sigmasoft.de relaunch <small>WP Theme from scratch</small>
+          </a>
         </strike>
 
-        <a href="http://colorissima.de">WordPress from scratch</a>
-        <a href="http://boot-folierung.de/">WordPress from scratch</a>
+        <a href="https://colorissima.de">
+          Colorissima <small>WordPress from scratch, maintained by owner</small>
+        </a>
+        <a href="https://boot-folierung.de/">
+          Boot-Folierung
+          <small>WordPress from scratch, maintained by owner</small>
+        </a>
       </section>
 
       <h2>2014</h2>
       <section>
-        <a href="http://praxisamrathausplatz.de">
+        <a href="https://praxis-am-rathausplatz.de/">
           Praxis am Rathausplatz <small>WP-Theme from scratch</small>
         </a>
+        <a href="http://ecoseaker.nz" title="Swim with Dolphins in Akaroa">
+          Ecoseaker <small>WordPress with Divi, maintained by owner</small>
+        </a>
         <!--
-            <a href="http://ecoseaker.nz" title="Swim with Dolphins in Akaroa" class="">Ecoseaker</a>
             <a href="https://bronk-objekte.de" title="Bronk Objekte" class="">Bronk Objekte</a>
 -->
         <a
@@ -443,9 +454,9 @@ Mitsubishi Tool
         <!--  <a href="http://angelpark-tueschenbroich.de"></a> -->
         <a href="http://sina-lindberg.de"></a>
         <a href="http://d.iorama.de"></a>
-        <a href="http://gillrath.de"
-          >Gillrath <small>WP Theme from scratch</small></a
-        >
+        <a href="http://gillrath.de">
+          Gillrath <small>WP Theme from scratch</small>
+        </a>
         <!-- <strike>
           <a href="http://www.spg-steiner.com">
             SPG Steiner <small>WP Theme from scratch</small>
@@ -464,18 +475,28 @@ Mitsubishi Tool
             www.gastconcept.de // outdated / offline
           </a>
         </strike>
-        <a href="http://blattundblume.com"></a>
-        <a href="http://accurare.de"></a>
-        <a href="http://www.drueckhammer.de"></a>
-        <a href="http://nea-enews.de"></a>
-        <a href="http://andiewand.de"></a>
-        <a href="http://www.sigmasoft.de"></a>
+        <a href="https://blattundblume.com"></a>
+        <a href="https://accurare.de"></a>
+        <strike><a href="https://www.drueckhammer.de"></a></strike>
+        <a href="https://nea-enews.de">
+          NEA Enews, complex WordPress Theme with custom pagebuilder, outdated
+          technology, maintained by owner
+        </a>
+        <strike><a href="http://andiewand.de"></a></strike>
+        <strike>
+          <a href="http://www.sigmasoft.de">
+            Sigmasoft
+            <small>WordPress Theme from scratch, multilanguage</small>
+          </a>
+        </strike>
         <a href="http://www.fashion-design-institut.de"></a>
-        <a href="http://janusz-korczak-schule-aachen.de"></a>
-        <a href="http://www.hospizstiftung-aachen.de"></a>
-        <a href="http://www.tueschenbroicher-muehle.de"></a>
-        <a href="http://www.ebens.de"></a>
-        <a href="http://physio-csw.de"></a>
+        <a href="https://www.jks-aachen.de/"></a>
+        <strike><a href="http://www.hospizstiftung-aachen.de"></a></strike>
+        <a href="http://www.tueschenbroicher-muehle.de">
+          Tueschenbroicher-Mühle
+        </a>
+        <a href="http://www.ebens.de">Ebens</a>
+        <a href="http://physio-csw.de">Physio-CSW</a>
       </section>
       <h2>2012</h2>
       <section>
