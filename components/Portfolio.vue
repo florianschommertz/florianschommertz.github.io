@@ -50,6 +50,10 @@
             used for the footer animation of the »logo s«
           </small>
         </a>
+        <a :class="others" href="https://shapes.film/">
+          shapes-music.de
+          <small> basic website with WordPress and DIVI </small>
+        </a>
       </section>
 
       <h2>2021</h2>
@@ -57,21 +61,21 @@
         <a href="https://alumni.ikv-aachen.de">
           alumni.ikv-aachen.de - Alumni-SPA
           <small>
-            a multiuser contacts app for the Institute of Plastics Processing<br />
+            Multiuser Contacts App for the Institute of Plastics Processing<br />
             demonstration possible
           </small>
         </a>
         <a href="https://diaedge-platform.mmc-hardmetal.com/">
           Diaedge Platform, MMC Hardmetal
           <small>
-            freelance Vue.js developer work for walbert-schmitz / all 3D design
-            and code is work of walbert-schmitz
+            freelance Vue.js developer work for Walbert-Schmitz / all 3D design
+            and code is work of Walbert-Schmitz
           </small>
         </a>
         <a href="https://3kubik.com">
-          3kubik.com -
+          3kubik.com
           <small>
-            a CMS that makes use of advanced features of WordPress' mulitporpose
+            a CMS that makes use of advanced features of WordPress' mulitpurpose
             theme Divi, it features a »KPI-Tool« which is developed as a VUE.js
             REST driven calculator plugin
           </small>
@@ -81,7 +85,7 @@
           homo-digitalis.ch -
           <small>
             Design Job - initial setup and design for the owner, my layout, now
-            maintend by owner
+            maintained by owner
           </small>
         </a>
 
@@ -614,33 +618,37 @@
       </section>
       <h2>2012</h2>
       <section>
-        <!-- <a href="http://www.buerofueraufmerksamkeit.de">
+        <a :class="others" href="http://www.buerofueraufmerksamkeit.de">
           buerofueraufmerksamkeit - Theme from scratch
-        </a> -->
-        <!-- <strike>
+        </a>
+        <strike :class="others">
           <a href="https://oberste-beulmann.de">Oberste Beulmann</a>
-        </strike> -->
+        </strike>
         <a href="https://www.digital-noises.com">Digital Noises</a>
-        <!-- <a href="https://atelieretage-wegberg.de/">Atelieretage Wwegberg</a> -->
-        <!-- <strike> <a href="http://www.ena-beratung.de"></a></strike> -->
-        <!-- <strike> <a href="http://www.your-agency.com"></a></strike> -->
-        <!-- <a href="http://www.hoehler-neumann.de"></a> -->
-        <!-- <a href="http://www.darius-mattheisen.de"></a> -->
+        <a :class="others" href="https://atelieretage-wegberg.de/"
+          >Atelieretage Wwegberg</a
+        >
+        <strike :class="others">
+          <a href="http://www.ena-beratung.de"></a
+        ></strike>
+        <strike :class="others">
+          <a href="http://www.your-agency.com"></a
+        ></strike>
+        <a :class="others" href="http://www.hoehler-neumann.de"></a>
+        <a :class="others" href="http://www.darius-mattheisen.de"></a>
         <!-- <strike> <a href="http://www.savanald.de"></a></strike> -->
         <!-- <strike> <a href="http://www.schlemmermarkt-wassenberg.de"></a></strike> -->
         <!-- <strike><a href="http://homecare-aachen.de"></a></strike> -->
         <a href="https://anna-maria-maile.de">Anna-Maria Maile</a>
-        <!-- <a href="http://stoke-borchert.de"></a> -->
-        <!-- <strike> <a href="http://sequent-medical.com"></a> </strike> -->
       </section>
       <h2>2012 /developed with my trainee</h2>
       <section>
         <a href="https://www.vitalliin.de">Vitalliin</a>
-        <!-- <a href="http://minigolf-wegberg.de">Minigolf Wegberg</a> -->
+        <a :class="others" href="http://minigolf-wegberg.de"
+          >Minigolf Wegberg</a
+        >
         <a href="https://www.landhausbrender.de">Landhaus Brender</a>
         <a href="https://www.startarevolution.de">Start a Revolution</a>
-        <!-- <strike> <a href="http://www.catchme-music.de"></a></strike> -->
-        <!-- <a href="https://www.wilker.de">Weingut Wilker</a> -->
       </section>
       <h2>2011</h2>
       <section>
