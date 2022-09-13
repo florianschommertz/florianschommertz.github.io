@@ -82,7 +82,7 @@
         </a>
 
         <a href="https://homo-digitalis.ch">
-          homo-digitalis.ch -
+          homo-digitalis.ch
           <small>
             Design Job - initial setup and design for the owner, my layout, now
             maintained by owner
@@ -90,10 +90,10 @@
         </a>
 
         <a href="https://www.bretagneurlaub.de">
-          bretagneurlaub.de -
+          bretagneurlaub.de
           <small>
-            a holidayhome website, Nuxt.js, extensive use of taxonomy and custom
-            post types. Design by Schroeder-And-Friends, SEO concept by
+            a Holidayhome-Rental-Website, Nuxt.js, extensive use of taxonomy and
+            custom post types. Design by Schroeder-And-Friends, SEO concept by
             bretagneurlaub.de
           </small>
         </a>
@@ -129,7 +129,7 @@
       <h2>2020</h2>
 
       <section>
-        <strike>Online Conference CMS for IKV / Offline</strike>
+        <strike :class="others">Online Conference CMS for IKV / Offline</strike>
         <a :class="others" href="http://minzeven.nl/">
           minzeven.nl
           <small>
@@ -142,7 +142,7 @@
         </a>
         <h3>for www.schlicht-und-ergreifend.de:</h3>
         <strike :class="others">
-          <a href="https://olli-electro.de">
+          <a href="https://olli-elektro.de/">
             Olli Elektro
             <small>
               speed optimised static website, with iterative design process on
@@ -151,7 +151,10 @@
           </a>
         </strike>
         <a href="https://portfolio.digital-noises.de/www.olli-elektro.de/">
-          Olli Elektro - <small>Backup Version - extreme responsive</small>
+          Olli Elektro -
+          <small>
+            Backup Version - extreme responsive finetune with designer</small
+          >
         </a>
       </section>
       <h2>2019</h2>
@@ -494,19 +497,20 @@
         <a :class="others" href="http://www.notare-svk.de">
           Notare SVK <small>WP Theme from scratch</small>
         </a>
-        <!-- <a href="http://diagnostik-hilft.de"
-          >Diagnostik Hilft <small>WP Theme from scratch</small></a
-        > -->
-        <a href="http://norbert-greuel.de"
-          >Norbert Greuel <small>WP Theme from scratch</small></a
-        >
+        <a :class="others" href="http://diagnostik-hilft.de">
+          Diagnostik Hilft <small>WP Theme from scratch</small>
+        </a>
+        <a href="http://norbert-greuel.de">
+          Norbert Greuel <small>WP Theme from scratch</small>
+        </a>
         <a :class="others" href="http://www.oldcountryhousenz.com/">
           Old Countryhouse Christchurch
           <small>WordPress & DIVI</small>
         </a>
         <strike :class="others">
           <a href="http://www.european-inspire.com">
-            Kyocera SEO - Marketing Help
+            Kyocera SEO
+            <small> Event Website </small>
           </a>
         </strike>
         <strike :class="others">
@@ -548,65 +552,76 @@
 
       <h2>2014</h2>
       <section>
-        <!-- <a href="https://praxis-am-rathausplatz.de/">
+        <a :class="others" href="https://praxis-am-rathausplatz.de/">
           Praxis am Rathausplatz <small>WP-Theme from scratch</small>
         </a>
-        <a href="http://ecoseaker.nz" title="Swim with Dolphins in Akaroa">
+        <a
+          :class="others"
+          href="http://ecoseaker.nz"
+          title="Swim with Dolphins in Akaroa"
+        >
           Ecoseaker <small>WordPress with Divi, maintained by owner</small>
-        </a> -->
-        <!--
-            <a href="https://bronk-objekte.de" title="Bronk Objekte" class="">Bronk Objekte</a>
--->
+        </a>
+        <strike :class="others">
+          <a href="https://bronk-objekte.de" title="Bronk Objekte" class="">
+            Bronk Objekte
+          </a>
+        </strike>
+
         <a
           href="https://itunes.apple.com/us/app/sequent-medical/id880399337?mt=8"
           title="Sequent Medical"
           class=""
         >
-          Sequent Medical (An ios / Android App)
+          Sequent Medical (An iOS / Android App)
         </a>
-        <!-- <strike>
+        <strike :class="others">
           <a href="http://ophover-muehle.de"> ophover-muehle.de </a>
-        </strike> -->
-        <!--  <a href="http://angelpark-tueschenbroich.de"></a> -->
-        <!-- <a href="http://sina-lindberg.de"></a>
-        <a href="http://d.iorama.de"></a>
-        <a href="http://gillrath.de">
-          Gillrath <small>WP Theme from scratch</small>
-        </a> -->
-        <!-- <strike>
-          <a href="http://www.spg-steiner.com">
-            SPG Steiner <small>WP Theme from scratch</small>
+        </strike>
+        <strike :class="others">
+          <a href="http://angelpark-tueschenbroich.de"></a>
+        </strike>
+        <a :class="others" href="http://sina-lindberg.de"></a>
+        <a :class="others" href="http://d.iorama.de"></a>
+
+        <strike :class="others">
+          <a href="http://portfolio.digital-noises.de/www.spg-steiner.com/">
+            SPG Steiner
+            <small
+              >WP Theme from scratch (Backup Version) design and code by
+              me</small
+            >
           </a>
-        </strike> -->
-        <!-- <a href="http://fotos.chmidt.net"></a>
-        <strike><a href="http://bronk-company.com"></a></strike>
-        <a href="http://auge-wegberg.de"
-          >
+        </strike>
+        <a :class="others" href="http://fotos.chmidt.net"></a>
+        <strike :class="others"><a href="http://bronk-company.com"></a></strike>
+        <a :class="others" href="http://auge-wegberg.de">
           Augenarzt Wegberg <small>WP Theme from scratch</small>
-          </a
-        > -->
+        </a>
       </section>
       <h2>2013</h2>
       <section>
-        <!-- <strike>
+        <strike :class="others">
           <a href="http://www.gastconcept.de">
             www.gastconcept.de // outdated / offline
           </a>
-        </strike> -->
+        </strike>
         <!-- <a href="https://blattundblume.com"></a> -->
-        <!-- <a href="https://accurare.de"></a> -->
-        <!-- <strike><a href="https://www.drueckhammer.de"></a></strike> -->
+        <a :class="others" href="https://accurare.de"></a>
+        <strike :class="others"
+          ><a href="https://www.drueckhammer.de"></a
+        ></strike>
         <a href="https://nea-enews.de">
           NEA Enews, complex WordPress Theme with custom pagebuilder, outdated
           technology, maintained by owner
         </a>
-        <!-- <strike><a href="http://andiewand.de"></a></strike> -->
-        <!-- <strike>
+        <strike :class="others"><a href="http://andiewand.de"></a></strike>
+        <strike :class="others">
           <a href="http://www.sigmasoft.de">
             Sigmasoft
             <small>WordPress Theme from scratch, multilanguage</small>
           </a>
-        </strike> -->
+        </strike>
         <!-- <a href="http://www.fashion-design-institut.de"></a> -->
         <!-- <a href="https://www.jks-aachen.de/"></a> -->
         <!-- <strike><a href="http://www.hospizstiftung-aachen.de"></a></strike> -->
@@ -661,26 +676,26 @@
         <!-- <strike> <a href="http://idgmbh.de"></a></strike> -->
         <!-- <strike> <a href="http://www.habets-aachen.de/"></a> </strike> -->
       </section>
-      <h2>2010 and older</h2>
-      <section>
-        <!-- <a href="https://oliebe.com/">Oliebe</a> -->
-        <!-- <a href="http://www.georg-maas.eu/en/">Georg-Maas</a> -->
-        <!-- <strike> <a href="http://www.jansen-textil.de"></a></strike> -->
-        <!-- <strike> <a href="http://www.hifi-schluderbacher.de"></a></strike> -->
-        <!-- <a href="https://www.auge-wegberg.de"></a> -->
-        <!-- <a href="http://michels-blumen.de"></a> -->
-        <!-- <a href="https://www.musikkeller.com">
+      <h2 :class="others">2010 and older</h2>
+      <section :class="others">
+        <a href="https://oliebe.com/">Oliebe</a>
+        <a href="http://www.georg-maas.eu/en/">Georg-Maas</a>
+        <strike> <a href="http://www.jansen-textil.de"></a></strike>
+        <strike> <a href="http://www.hifi-schluderbacher.de"></a></strike>
+        <a href="https://www.auge-wegberg.de"></a>
+        <a href="http://michels-blumen.de"></a>
+        <a href="https://www.musikkeller.com">
           Musikkeller - First Webseite with MySql from scratch
-        </a> -->
-        <!-- <a href="https://www.kgsoiron.de/">Ssoiron</a> -->
-        <!-- <strike> <a href="http://www.bvsa.de"></a></strike> -->
-        <!-- <strike> <a href="http://zplusm.de"></a></strike> -->
-        <!-- <strike> <a href="http://vitalpraxis-roetgen.de"></a></strike> -->
-        <!-- <a href="https://zytologie-buettner.de"></a> -->
-        <!-- <strike> <a href="http://gefaessmedizin.info"></a></strike> -->
-        <!-- <strike> <a href="http://www.simpatec.com"></a></strike> -->
-        <!-- <strike> <a href="http://www.loening.eu"></a></strike> -->
-        <!-- <strike> <a href="http://www.blumenhaus-steffens.de/"></a></strike> -->
+        </a>
+        <a href="https://www.kgsoiron.de/">Ssoiron</a>
+        <strike> <a href="http://www.bvsa.de"></a></strike>
+        <strike> <a href="http://zplusm.de"></a></strike>
+        <strike> <a href="http://vitalpraxis-roetgen.de"></a></strike>
+        <a href="https://zytologie-buettner.de"></a>
+        <strike> <a href="http://gefaessmedizin.info"></a></strike>
+        <strike> <a href="http://www.simpatec.com"></a></strike>
+        <strike> <a href="http://www.loening.eu"></a></strike>
+        <strike> <a href="http://www.blumenhaus-steffens.de/"></a></strike>
       </section>
       <!-- <h2>XMAS</h2> -->
       <!-- <section>
@@ -696,8 +711,8 @@
           Sequentmedical 2013
         </a>
       </section> -->
-      <h2>artist sites outdated</h2>
-      <section>
+      <h2 :class="others">artist sites outdated</h2>
+      <section :class="others">
         <strike><a href="http://www.johnnylogan.com"></a></strike>
         <strike><a href="http://www.kylie.de"></a></strike>
         <!-- <strike><a href="http://www.auletta.de"></a></strike> -->
