@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
-    <div id="p-container" role="presentation">
+    <div id="p-container" role="presentation" style="pointer-events: none">
       <div class="p"></div>
       <div class="p"></div>
       <div class="p"></div>
