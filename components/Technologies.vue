@@ -30,7 +30,7 @@
       <li>Basic knowledge:</li>
       <li>Node.js, i18n, SSR, Vite, Vitepress, Elementor, Drupal</li>
     </ul>
-    <h3 class="mt-5">design & concept</h3>
+    <h3 class="mt-5">Design &amp; Concept</h3>
     <ul>
       <li v-ranking="95">Illustrator</li>
       <li v-ranking="90">Lightroom</li>
@@ -39,7 +39,7 @@
       <li v-ranking="60">Adobe XD</li>
       <li v-ranking="70">Ui/UX</li>
     </ul>
-    <h3 class="mt-5">Audio & Video</h3>
+    <h3 class="mt-5">Audio / Video</h3>
     <ul>
       <li v-ranking="100">Logic Audio</li>
       <li v-ranking="50">Native Instruments</li>

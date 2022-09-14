@@ -10,7 +10,8 @@
       <span v-if="showAll" style="color: #f33">
         Below are all online projects since 2008 - <br />
         <small>
-          most of them are outdated or not in the state that I created
+          most of them are outdated or not in the state that I created. These
+          projects appear with reduced font size
         </small>
       </span>
 
@@ -42,6 +43,16 @@
       </section>
 
       <section>
+        <h3 :class="others">for www.ameliejahn.de:</h3>
+
+        <a :class="others" href="https://www.zarnack-krueger.de/">
+          zarnack-krueger.de
+          <small>
+            website with little twist to the logo with an scroll listener,
+            design by amelie-jahn.de
+          </small>
+        </a>
+
         <h3>for www.schlicht-und-ergreifend.de:</h3>
         <a href="https://shapes-music.de">
           shapes-music.de
@@ -98,22 +109,26 @@
           </small>
         </a>
 
-        <a href="https://oyess.de/">
-          Oyess - Winner of the German Sustainability Award 2022
-        </a>
         <a :class="others" href="https://shop.gillrath.de/">
           shop.gillrath.de - basic web shop
         </a>
         <a href="https://jobs.gillrath.de/">
           jobs.gillrath.de
           <small>
-            basic jobs board - optimised for speed, my layout, vue nuxt from
-            scratch
+            basic jobs board - optimised for speed, all done by me, vue nuxt
+            from scratch
           </small>
         </a>
         <a :class="others" href="https://ai-pi.io">
           aipi
           <small> WP - Divi </small>
+        </a>
+
+        <h3 :class="others">for www.buerofueraufmerksamkeit.de:</h3>
+
+        <a href="https://oyess.de/">
+          Oyess
+          <small> Winner of the German Sustainability Award 2022 </small>
         </a>
 
         <h3>for www.schlicht-und-ergreifend.de:</h3>
@@ -279,8 +294,8 @@
           </a>
         </strike>
       </section>
-      <h2>2017</h2>
-      <section>
+      <h2 :class="others">2017</h2>
+      <section :class="others">
         <a :class="others" href="https://www.toepferei-oberheid.de/">
           Töpferei Oberheid
         </a>
@@ -294,16 +309,19 @@
         >
           Tüschenbroicher Mühlen-Verein
         </a>
-        <strike :class="others">
+        <!-- <strike :class="others">
           <a href="http://optik-alberty.de">
             Optik Alberty
             <small>WordPress theme from scratch and photography</small>
           </a>
-        </strike>
+        </strike> -->
         <strike :class="others">
           <a href="https://portfolio.digital-noises.de/www.optik-alberty.de/">
             Optik Alberty
-            <small>WordPress theme from scratch and photography</small>
+            <small
+              >WordPress theme from scratch and photography Backup
+              Version</small
+            >
           </a>
         </strike>
 
@@ -464,6 +482,52 @@
 
       <h2>2015</h2>
       <section>
+        <a :class="others" href="http://www.oldcountryhousenz.com/">
+          Old Countryhouse Christchurch
+          <small>WordPress & DIVI</small>
+        </a>
+        <strike :class="others">
+          <a href="http://www.european-inspire.com">
+            Kyocera SEO
+            <small> Event Website </small>
+          </a>
+        </strike>
+        <strike :class="others">
+          <a href="https://colorissima.de">
+            Colorissima
+            <small>WordPress from scratch, maintained by owner</small>
+          </a>
+        </strike>
+        <a :class="others" href="https://boot-folierung.de/">
+          Boot-Folierung
+          <small>WordPress from scratch, maintained by owner</small>
+        </a>
+        <strike :class="others">
+          <a href="http://www.geheim-garten.de">
+            Geheimgarten
+            <small>outdated / offline / furniture online shop</small>
+          </a>
+        </strike>
+        <strike :class="others">
+          <a href="http://www.elliott-homestaging.de">outdated / offline</a>
+        </strike>
+
+        <a :class="others" href="http://www.michels-blumen.de/"
+          >Michels Blumen</a
+        >
+        <a :class="others" href="https://fashion-design-institut.de">
+          fashion-design-institut.de (responsive relaunch)
+          <small>WP Theme from scratch</small>
+        </a>
+        <a :class="others" href="http://fahrschulmanufaktur.de"
+          >Fahrschulmanufaktur</a
+        >
+        <h3 :class="others">for www.buerofueraufmerksamkeit.de:</h3>
+        <a href="https://www.abtei-gerleve.de">
+          Abtei Gerleve <small>WP Theme from scratch</small>
+        </a>
+        <h3 :class="others">for www.squarevisuals.de</h3>
+
         <strike :class="others">
           <a href="http://www.dietributevonpanem.de">
             Die Tribute von Panem <small>WP Theme from scratch</small>
@@ -479,7 +543,7 @@
         <strike :class="others">
           <a href="#">Support for Clubsante.eu</a>
         </strike>
-        <a href="http://fahrschulmanufaktur.de">Fahrschulmanufaktur</a>
+
         <strike :class="others">
           <a href="http://www.pettersson-und-findus.de">
             Petterson und Findus <small>WP Theme from scratch</small>
@@ -494,60 +558,28 @@
         <a :class="others" href="http://funke-buch.de">
           Cornelia Funke · Reckless <small>WP Theme from scratch</small>
         </a>
+
+        <h3>for www.schlicht-und-ergreifend.de:</h3>
+
         <a :class="others" href="http://www.notare-svk.de">
           Notare SVK <small>WP Theme from scratch</small>
-        </a>
-        <a :class="others" href="http://diagnostik-hilft.de">
-          Diagnostik Hilft <small>WP Theme from scratch</small>
         </a>
         <a href="http://norbert-greuel.de">
           Norbert Greuel <small>WP Theme from scratch</small>
         </a>
-        <a :class="others" href="http://www.oldcountryhousenz.com/">
-          Old Countryhouse Christchurch
-          <small>WordPress & DIVI</small>
+
+        <h3 :class="others">for artindustries.de</h3>
+
+        <a :class="others" href="http://diagnostik-hilft.de">
+          Diagnostik Hilft <small>WP Theme from scratch</small>
         </a>
-        <strike :class="others">
-          <a href="http://www.european-inspire.com">
-            Kyocera SEO
-            <small> Event Website </small>
-          </a>
-        </strike>
-        <strike :class="others">
-          <a href="http://www.geheim-garten.de">
-            Geheimgarten
-            <small>outdated / offline / furniture online shop</small>
-          </a>
-        </strike>
-        <strike :class="others">
-          <a href="http://www.elliott-homestaging.de">outdated / offline</a>
-        </strike>
-        <a href="https://www.abtei-gerleve.de">
-          Abtei Gerleve <small>WP Theme from scratch</small>
-        </a>
-        <a :class="others" href="http://www.michels-blumen.de/"
-          >Michels Blumen</a
-        >
-        <a :class="others" href="https://fashion-design-institut.de">
-          fashion-design-institut.de (responsive relaunch)
-          <small>WP Theme from scratch</small>
-        </a>
+
+        <h3>for herr-kruse.de</h3>
         <strike :class="others">
           <a href="http://sigmasoft.de">
             sigmasoft.de relaunch <small>WP Theme from scratch</small>
           </a>
         </strike>
-
-        <strike :class="others">
-          <a href="https://colorissima.de">
-            Colorissima
-            <small>WordPress from scratch, maintained by owner</small>
-          </a>
-        </strike>
-        <a :class="others" href="https://boot-folierung.de/">
-          Boot-Folierung
-          <small>WordPress from scratch, maintained by owner</small>
-        </a>
       </section>
 
       <h2>2014</h2>
@@ -676,7 +708,9 @@
         <!-- <strike> <a href="http://idgmbh.de"></a></strike> -->
         <!-- <strike> <a href="http://www.habets-aachen.de/"></a> </strike> -->
       </section>
-      <h2 :class="others">2010 and older</h2>
+      <h2 :class="others">
+        2010 and older, with »Herr Kruse« and »Squarevisuals«
+      </h2>
       <section :class="others">
         <a href="https://oliebe.com/">Oliebe</a>
         <a href="http://www.georg-maas.eu/en/">Georg-Maas</a>
@@ -761,13 +795,14 @@ a {
   small {
     display: block;
   }
-  &.showOthers {
-    display: block;
-    font-size: 0.8em;
-  }
-  &.hideOthers {
-    display: none;
-  }
+}
+.showOthers {
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+.hideOthers {
+  display: none;
 }
 a[href^='http']:empty::before {
   content: attr(href);

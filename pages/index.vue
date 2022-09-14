@@ -33,7 +33,7 @@
       <div class="p"></div>
       <div class="p"></div>
     </div>
-
+    <!-- Particles end -->
     <div twocolumngrid>
       <FlorianSchommertz
         class="hasGridAreaVar"
@@ -152,6 +152,11 @@ a:is(:hover, :active):after {
 }
 p {
   padding: 0 0 2em 0;
+}
+i {
+  font-style: italic;
+  font-family: georgia, times, 'times new roman', serif;
+  font-size: 0.8em;
 }
 [twocolumngrid] {
   display: grid;
