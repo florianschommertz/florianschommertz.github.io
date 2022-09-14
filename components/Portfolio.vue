@@ -436,18 +436,22 @@
         </a>
         <h3 :class="others">for www.schroeder&shy;and&shy;friends.com:</h3>
         <small :class="others">Technical Support for</small>
-        <a :class="others" href="http://www.schroeder&shy;and&shy;friends.com">
+        <a :class="others" href="https://www.schroeder-and-friends.com">
           Schroeder and Friends
         </a>
         <a :class="others" href="http://www.schell-gruentechnik.de"
           >Shell Grüntechnik</a
         >
         <a :class="others" href="http://www.hochheuser.com">Hochheuser</a>
-        <a :class="others" href="http://geckoconsulting-ac.de"
-          >Geckoconsulting AC</a
-        >
+
+        <strike :class="others">
+          <a :class="others" href="http://geckoconsulting-ac.de"
+            >Geckoconsulting AC</a
+          >
+        </strike>
+
         <h3 :class="others">
-          based on my multisite - WordPress system
+          based on my »multisite - WordPress system«
           <small>incl. Custom Plugins - Layout: Squarevisuals</small>
         </h3>
 
