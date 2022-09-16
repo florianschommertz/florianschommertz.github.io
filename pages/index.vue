@@ -101,14 +101,10 @@ export default {}
 }
 :root {
   --v: 1.2vmin;
-  font-size: 1.3vw;
+  font-size: clamp(16px, 1.3vw, 26px);
   font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
 }
-@media screen and (max-width: 1400px) {
-  :root {
-    font-size: 20px;
-  }
-}
+
 body {
   background: #ccc;
 }
@@ -156,16 +152,15 @@ p {
 i {
   font-style: italic;
   font-family: georgia, times, 'times new roman', serif;
-  font-size: 0.8em;
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
 }
 [twocolumngrid] {
   display: grid;
   max-width: 80vw;
   margin: 0 auto;
   gap: 2em;
-
   grid-template-columns: 3fr 1fr;
-
   grid-template-areas:
     'FlorianSchommertz FlorianSlogan'
     'FlorianAddress .'
@@ -214,7 +209,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p,
+ul,
+li {
   font-size: 1em;
 }
 h1,

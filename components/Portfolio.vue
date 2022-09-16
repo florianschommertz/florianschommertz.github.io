@@ -11,7 +11,7 @@
         Below are all online projects since 2008 - <br />
         <small>
           most of them are outdated or not in the state that I created. These
-          projects appear with reduced font size
+          projects appear with less opacity
         </small>
       </span>
 
@@ -574,7 +574,7 @@
           Diagnostik Hilft <small>WP Theme from scratch</small>
         </a>
 
-        <h3>for herr-kruse.de</h3>
+        <h3 :class="others">for herr-kruse.de</h3>
         <strike :class="others">
           <a href="http://sigmasoft.de">
             sigmasoft.de relaunch <small>WP Theme from scratch</small>
@@ -798,8 +798,9 @@ a {
 }
 .showOthers {
   display: block;
-  font-size: 0.8em;
+  // font-size: 0.8em;
   margin-bottom: 0;
+  opacity: 0.6;
 }
 .hideOthers {
   display: none;
