@@ -75,7 +75,7 @@ export default function About() {
         <title>About - Florian Schommertz</title>
         <meta
           name="description"
-          content="I’m Florian Schommertz. I live in New York City, where I design the future."
+          content="I’m Florian Schommertz."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -100,10 +100,10 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                While being self-employed for over twenty years now. My clients
-                appreciate the way I approach their ideas. I have called my
-                portfolio' problem solving' for eight years now (the last time I
-                worked on my company website digital-noises.com).
+              
+                I am self-employed for more than 20 years now 
+
+abd I love bleeding edge technology as well as solving my clients problems.
               </p>
               <p>
                 Since then, my wife and I have been overwhelmed by our work. We
