@@ -100,10 +100,18 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                While being self-employed for over twenty years now, my clients
-                appreciate the way I approach their ideas. I have called my
-                portfolio' problem solving' for eight years now (the last time I
-                worked on my company website digital-noises.com).
+                I am self-employed for over twenty years now and my clients
+                appreciate the way I approach their ideas. Our business
+                portfolio' is called problem solving' for eight years now (the
+                last time I worked on my company website
+                <a
+                  href="https://digital-noises.com"
+                  title=""
+                  class="pl-2 underline"
+                >
+                  digital-noises.com
+                </a>
+                ).
               </p>
               <p>
                 Since then, my wife and I have been overwhelmed by our work. We
