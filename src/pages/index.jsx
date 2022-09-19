@@ -75,7 +75,7 @@ export default function About() {
         <title>About - Florian Schommertz</title>
         <meta
           name="description"
-          content="I’m Florian Schommertz. I live in New York City, where I design the future."
+          content="I’m Florian Schommertz. Audio and Video made it to the web  woho!"
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -100,10 +100,18 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I am self-employed for over twenty years now and my clients
-                appreciate the way I approach their ideas. Our business
-                portfolio' is called problem solving' for eight years now (the
-                last time I worked on my company website
+                Nice to meet you!
+                <br />
+                I'm a technology nerd who speaks human!
+              </p>
+              <h2>Don't believe me?</h2>
+              <p>Take a giant leap and just call, text or email.</p>
+              <p>
+                Just in case you need some problem solving, that is my thing
+                too. Even though my tools are mouse, keyboard and brain, I tend
+                to be quiet good with listening and finding out your and your
+                customers special needs. That's also the reason I call my
+                portfolio on my business website over on
                 <a
                   href="https://digital-noises.com"
                   title=""
@@ -111,15 +119,20 @@ export default function About() {
                 >
                   digital-noises.com
                 </a>
-                ).
+                »problem solving«.
+              </p>
+
+              <p>
+                For the last 15 years My wife and I have been overwhelmed by our
+                work. We created a book, launched about three bigger and ~7
+                smaller websites per year, and saved about 50 clients from
+                penalties for GDPR privacy regulations.
               </p>
               <p>
-                Since then, my wife and I have been overwhelmed by our work. We
-                created a book, launched about three bigger and ~7 smaller
-                websites per year, and saved about 50 clients from penalties for
-                GDPR privacy regulations. These jobs include WooCommerce Shops
-                with DIVI and a multisite WordPress theme/setup for a large
-                German publisher called Oetinger-Verlag.
+                To be fair - many of jobs include WooCommerce Shops with DIVI -
+                it's just a good base setup. Others are complete custom like a
+                multisite WordPress theme/setup for a large German publisher
+                called Oetinger-Verlag.
               </p>
 
               <p>
