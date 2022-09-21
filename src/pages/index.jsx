@@ -123,10 +123,10 @@ export default function About() {
               </p>
 
               <p>
-                For the last 15 years My wife and I have been overwhelmed by our
-                work. We created a book, launched about three bigger and ~7
-                smaller websites per year, and saved about 50 clients from
-                penalties for GDPR privacy regulations.
+                For the last 15 years my wife and I have been overwhelmed by our
+                work. We made a book, launched about three bigger and ~7 smaller
+                websites per year, and saved about 50 clients from penalties for
+                GDPR privacy regulations.
               </p>
               <p>
                 To be fair - many of jobs include WooCommerce Shops with DIVI -
