@@ -108,7 +108,7 @@ export default function About() {
               <p>Take a giant leap and just call, text or email.</p>
               <p>
                 Just in case you need some problem solving, that is my thing
-                too. Even though my tools are mouse, keyboard and brain, I tend
+                too! Even though my tools are mouse, keyboard and brain, I tend
                 to be quiet good with listening and finding out your and your
                 customers special needs. That's also the reason I call my
                 portfolio on my business website over on
