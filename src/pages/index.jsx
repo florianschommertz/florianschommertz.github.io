@@ -92,25 +92,22 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Florian Schommertz. I live in Germany and New Zealand.
+              Hi! I’m Florian Schommertz. I'm a techology nerd, who actually
+              speaks human.
               <br />
               web · social media · av
               <br />
               design / ux / code / seo
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                Nice to meet you!
-                <br />
-                I'm a technology nerd who speaks human!
-              </p>
-              <h2>Don't believe me?</h2>
+              <h2>Nice to meet you!</h2>
+
               <p>Take a giant leap and just call, text or email.</p>
               <p>
                 Just in case you need some problem solving, that is my thing
-                too! Even though my tools are mouse, keyboard and brain, I tend
-                to be quiet good with listening and finding out your and your
-                customers special needs. That's also the reason I call my
+                too. Although I have a mouse, keyboard and brain at my disposal,
+                I am good at listening and finding out what your and your
+                customers' special needs are. That's also the reason I call my
                 portfolio on my business website over on
                 <a
                   href="https://digital-noises.com"
@@ -130,9 +127,9 @@ export default function About() {
               </p>
               <p>
                 To be fair - many of jobs include WooCommerce Shops with DIVI -
-                it's just a good base setup. Others are complete custom like a
-                multisite WordPress theme/setup for a large German publisher
-                called Oetinger-Verlag.
+                it's just a pretty solid base setup. Others are complete custom
+                setups, such as a multisite WordPress theme/setup for a large
+                German publisher called Oetinger-Verlag.
               </p>
 
               <p>
@@ -141,6 +138,15 @@ export default function About() {
                 have travelled and stayed in every significant city and region
                 for extended periods each year while remotely running my german
                 online business.
+              </p>
+
+              <p>
+                I have been lucky enough to be able to live in two of the most
+                amazing countries in the world;
+                <b>Germany and New Zealand.</b> I have been able to travel
+                extensively in both countries and have built up an extensive
+                network of contacts with the locals. As a result I have acquired
+                an understanding and love for different cultures,
               </p>
 
               <h2>Skills</h2>
@@ -252,17 +258,6 @@ export default function About() {
               >
                 St-Rochusweiler 13a · 41844 Wegberg · Germany
               </SocialLink>
-
-              {/* 2434.30 83 890 nz: +64 22 089 5068 street: St-Rochusweiler 13a
-                PO/City: 41844 Wegberg USt-IdNr.: DE195532753
-                https://schommertz.com */}
-              {/* <SocialLink
-                href="mailto:florian@schommertz.com"
-                icon={MailIcon}
-                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-              >
-                florian@schommertz.com
-              </SocialLink> */}
             </ul>
           </div>
         </div>
