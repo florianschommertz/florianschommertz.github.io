@@ -78,7 +78,7 @@ const projects2021 = [
   {
     name: 'Ferienhäuser Karin Minor',
     description: `a Holidayhome-Rental-Website, Nuxt.js, extensive use of taxonomy and
-    custom post types. Design by Schroeder-And-Friends, SEO concept by
+    custom-post-types. Design by Schroeder-And-Friends, SEO concept by
     bretagneurlaub.de`,
     link: {
       href: 'https://bretagneurlaub.de/',
