@@ -109,14 +109,10 @@ export default function About() {
                 I am good at listening and finding out what your and your
                 customers' special needs are. That's also the reason I call my
                 portfolio on my business website over on
-                <a
-                  href="https://digital-noises.com"
-                  title=""
-                  class="pl-2 underline"
-                >
+                <a href="https://digital-noises.com" class="pl-2 underline">
                   digital-noises.com
                 </a>
-                »problem solving«.
+                &nbsp;»problem solving«.
               </p>
 
               <p>
@@ -142,11 +138,11 @@ export default function About() {
 
               <p>
                 I have been lucky enough to be able to live in two of the most
-                amazing countries in the world;
-                <b>Germany and New Zealand.</b> I have been able to travel
-                extensively in both countries and have built up an extensive
-                network of contacts with the locals. As a result I have acquired
-                an understanding and love for different cultures,
+                amazing countries in the world; Germany and New Zealand. I have
+                been able to travel extensively in both countries and have built
+                up an extensive network of contacts with the locals. As a result
+                I have acquired an understanding and love for different
+                cultures,
               </p>
 
               <h2>Skills</h2>
