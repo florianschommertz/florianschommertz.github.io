@@ -107,12 +107,14 @@ export default function About() {
                 Just in case you need some problem solving, that is my thing
                 too. Although I have a mouse, keyboard and brain at my disposal,
                 I am good at listening and finding out what your and your
-                customers' special needs are. That's also the reason I call my
-                portfolio on my business website over on
+                customers' special needs are.
+              </p>
+              <p>
+                Or visit »problem solving« on our old business website of
+                2014over on
                 <a href="https://digital-noises.com" class="pl-2 underline">
                   digital-noises.com
                 </a>
-                &nbsp;»problem solving«.
               </p>
 
               <p>
@@ -122,27 +124,20 @@ export default function About() {
                 GDPR privacy regulations.
               </p>
               <p>
-                To be fair - many of jobs include WooCommerce Shops with DIVI -
-                it's just a pretty solid base setup. Others are complete custom
-                setups, such as a multisite WordPress theme/setup for a large
-                German publisher called Oetinger-Verlag.
-              </p>
-
-              <p>
-                I've built an ever-growing connection to New Zealand and its
-                people since the first time I visited in 2001. Since then, I
-                have travelled and stayed in every significant city and region
-                for extended periods each year while remotely running my german
-                online business.
+                To be fair - many of the jobs include WooCommerce shops with
+                DIVI; it's just a pretty solid base setup. Others are complete
+                custom setups, such as a multisite WordPress theme/setup for a
+                large German publisher called Oetinger-Verlag.
               </p>
 
               <p>
                 I have been lucky enough to be able to live in two of the most
-                amazing countries in the world; Germany and New Zealand. I have
-                been able to travel extensively in both countries and have built
-                up an extensive network of contacts with the locals. As a result
-                I have acquired an understanding and love for different
-                cultures,
+                amazing countries in the world; Germany and New Zealand and have
+                built an ever-growing connection to NZ and its people since the
+                first time I visited in 2001. My wife and I were lucky to have
+                travelled and stayed in every significant city and region for
+                extended periods each year while remotely running my german
+                online business.
               </p>
 
               <h2>Skills</h2>
