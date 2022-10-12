@@ -164,7 +164,9 @@ export default function About() {
                 <li style={{ '--ranking': '35' }}>GraphQl</li>
                 <li style={{ '--ranking': '85' }}>jQuery</li>
                 <li>Basic knowledge:</li>
-                <li>Node.js, i18n, SSR, Vite, Vitepress, Elementor, Drupal</li>
+                <li>
+                  Node.js, i18n, 11ty, SSR, Vite, Vitepress, Elementor, Drupal
+                </li>
               </ul>
               <h3 className="mt-5">Design &amp; Concept</h3>
               <ul>
@@ -173,7 +175,6 @@ export default function About() {
                 <li v-ranking="85">Photoshop</li>
                 <li v-ranking="80">Indesign</li>
                 <li v-ranking="60">Adobe XD</li>
-                <li v-ranking="70">Ui/UX</li>
               </ul>
               <h3 className="mt-5">Audio / Video</h3>
               <ul>

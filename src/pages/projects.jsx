@@ -37,6 +37,17 @@ const projects2022 = [
     logo: logoShapes,
     client: 'schlicht und ergreifend',
   },
+
+  {
+    name: 'Measx',
+    description: `A Nuxt JS Project, WIP. Content is added at the time being.`,
+    link: {
+      href: 'https://nuxt-dev.measx.com/de/loesungen/prufstandstechnik/',
+      label: 'nuxt-dev.measx.com · wip',
+    },
+    logo: placeHolder,
+    client: 'Measx',
+  },
 ]
 const projects2021 = [
   {
