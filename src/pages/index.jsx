@@ -17,7 +17,7 @@ import {
 import portraitImage from '@/images/portrait.jpg'
 
 import imgGuitar from '@/images/photos/guitar-img_9609.jpeg'
-import imgKiwiRail from '@/images/photos/kiwi-rail-img_0583.jpeg'
+import imgKiwiRail from '@/images/photos/force-title-case-kiwi-rail-img_0583.jpeg'
 import imgHilarious from '@/images/photos/st-hilarious.jpeg'
 import imgKaimanawa1 from '@/images/photos/kaimanawa-2-fun-img_3629.jpeg'
 import imgKaimanawa2 from '@/images/photos/kaimanawa-1-img_3631.jpeg'
