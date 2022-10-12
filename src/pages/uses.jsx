@@ -48,20 +48,9 @@ export default function Uses() {
               through with our various launch simulations.
             </Tool>
             <Tool title="LG HDR 4K">32" and hardware calibrated</Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
-            </Tool>
-            <Tool title="Apple Magic Trackpad">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
-            </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
-              </Tool>
+
+
+
             </ToolsSection> */}
           <ToolsSection title="Development tools">
             <Tool title="Alfred">
@@ -76,7 +65,7 @@ export default function Uses() {
               Grunt or Gulp - do it with style on a Mac!
             </Tool>
             <Tool title="Visual Studio Code">
-              Slow but not on M1. It has all the features you need.
+              Slow? Not on M1. It has all the features you need.
             </Tool>
             <Tool title="Nova">
               Last but not least — Panic's Nova editor is the most beautiful
