@@ -1,5 +1,6 @@
 import Image from 'next/future/image'
 import Head from 'next/head'
+import clsx from 'clsx'
 
 import { Card } from '@/components/Card'
 import { PortfolioCard } from '@/components/PortfolioCard'
@@ -13,6 +14,40 @@ import logoShapes from '@/images/logos/shapes.png'
 
 import placeHolder from '@/images/logos/digital-noises.svg'
 
+import imgBenny from '@/images/photos/benny.jpeg'
+import imgEspresso from '@/images/photos/espresso-img_6882.jpeg'
+import imgSunglasses from '@/images/photos/sunglas-down-img_7392.jpeg'
+import imgSmokie from '@/images/photos/smokie-img_6599.jpeg'
+import imgPortrait from '@/images/photos/portrait-img_2750.jpeg'
+
+function Photos() {
+  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
+
+  return (
+    <div className="mt-16 sm:mt-20">
+      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+        {[imgPortrait, imgEspresso, imgSmokie, imgSunglasses, imgBenny].map(
+          (image, imageIndex) => (
+            <div
+              key={image.src}
+              className={clsx(
+                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+                rotations[imageIndex % rotations.length]
+              )}
+            >
+              <Image
+                src={image}
+                alt=""
+                sizes="(min-width: 640px) 18rem, 11rem"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          )
+        )}
+      </div>
+    </div>
+  )
+}
 const projects2022 = [
   {
     name: 'Gillrath',
@@ -225,6 +260,7 @@ export default function Projects() {
         <title>Projects - Florian Schommertz</title>
         <meta name="description" content="Some interesting jobs are:" />
       </Head>
+
       <SimpleLayout
         title="Some interesting jobs"
         intro="I've developed a lot of projects in since 1998 …"
@@ -306,6 +342,7 @@ export default function Projects() {
           ))}
         </ul>
       </SimpleLayout>
+      <Photos />
     </>
   )
 }

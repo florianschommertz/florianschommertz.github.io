@@ -1,8 +1,46 @@
+import Image from 'next/future/image'
+
 import Head from 'next/head'
+import clsx from 'clsx'
 
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+
+import imgBenny from '@/images/photos/benny.jpeg'
+import imgEspresso from '@/images/photos/espresso-img_6882.jpeg'
+import imgSunglasses from '@/images/photos/sunglas-down-img_7392.jpeg'
+import imgSmokie from '@/images/photos/smokie-img_6599.jpeg'
+import imgPortrait from '@/images/photos/portrait-img_2750.jpeg'
+
+function Photos() {
+  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
+
+  return (
+    <div className="mt-16 sm:mt-20">
+      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+        {[imgPortrait, imgEspresso, imgSmokie, imgSunglasses, imgBenny].map(
+          (image, imageIndex) => (
+            <div
+              key={image.src}
+              className={clsx(
+                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+                rotations[imageIndex % rotations.length]
+              )}
+            >
+              <Image
+                src={image}
+                alt=""
+                sizes="(min-width: 640px) 18rem, 11rem"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          )
+        )}
+      </div>
+    </div>
+  )
+}
 
 function ToolsSection({ children, ...props }) {
   return (
@@ -35,6 +73,7 @@ export default function Uses() {
           content="Software I use, gadgets I love, and other things I recommend."
         />
       </Head>
+      <Photos />
       <SimpleLayout
         title="Software I use, gadgets I love, and other things I recommend."
         intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."

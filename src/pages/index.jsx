@@ -16,11 +16,11 @@ import {
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
-import image1 from '@/images/photos/IMG_6599.jpeg'
-import image2 from '@/images/photos/kiwi-rail-IMG_0583.jpeg'
-import image3 from '@/images/photos/IMG_9609.jpeg'
-import image4 from '@/images/photos/IMG_3629.jpeg'
-import image5 from '@/images/photos/IMG_3631.jpeg'
+import imgGuitar from '@/images/photos/guitar-img_9609.jpeg'
+import imgKiwiRail from '@/images/photos/kiwi-rail-img_0583.jpeg'
+import imgHilarious from '@/images/photos/st-hilarious.jpeg'
+import imgKaimanawa1 from '@/images/photos/kaimanawa-2-fun-img_3629.jpeg'
+import imgKaimanawa2 from '@/images/photos/kaimanawa-1-img_3631.jpeg'
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -28,7 +28,13 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[
+          imgGuitar,
+          imgKiwiRail,
+          imgHilarious,
+          imgKaimanawa1,
+          imgKaimanawa2,
+        ].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
