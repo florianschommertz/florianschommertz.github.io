@@ -19,8 +19,8 @@ import portraitImage from '@/images/portrait.jpg'
 import imgGuitar from '@/images/photos/guitar-img_9609.jpeg'
 import imgKiwiRail from '@/images/photos/force-title-case-kiwi-rail-img_0583.jpeg'
 import imgHilarious from '@/images/photos/st-hilarious.jpeg'
-import imgKaimanawa1 from '@/images/photos/kaimanawa-2-fun-img_3629.jpeg'
-import imgKaimanawa2 from '@/images/photos/kaimanawa-1-img_3631.jpeg'
+import imgKaimanawa1 from '@/images/photos/kaimanawa-1-img_3631.jpeg'
+import imgKaimanawa2 from '@/images/photos/kaimanawa-2-fun-img_3629.jpeg'
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -133,7 +133,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hi! I’m Florian Schommertz. I'm a techology nerd, who actually
+              Hi! I’m Florian Schommertz. I'm a technology nerd, who actually
               speaks human.
               <br />
               web · social media · av
