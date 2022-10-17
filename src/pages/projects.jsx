@@ -11,6 +11,11 @@ import logo3kubik from '@/images/logos/3kubik.svg'
 import logoIKV from '@/images/logos/ikv.svg'
 import logoGillrath from '@/images/logos/gillrath-icons.svg'
 import logoShapes from '@/images/logos/shapes.png'
+import logoJohnDiva from '@/images/logos/john-diva-logo-2x.png'
+import logoSigmasoft from '@/images/logos/sigma_logo_Header.svg'
+import logoKangaroo from '@/images/logos/kangaroo.svg'
+import logoFDISecrets from '@/images/logos/fdi-secrets.svg'
+import logoNiels from '@/images/logos/niels.svg'
 
 import placeHolder from '@/images/logos/digital-noises.svg'
 
@@ -166,7 +171,7 @@ const projectsBefore = [
       href: 'https://johndiva.com/',
       label: 'John Diva (2018)',
     },
-    logo: placeHolder,
+    logo: logoJohnDiva,
     client: 'schlicht und ergreifend',
   },
   {
@@ -176,7 +181,7 @@ const projectsBefore = [
       href: 'https://portfolio.digital-noises.de/blog.sigmasoft.de/',
       label: 'link to my portfolio/archive, the blog is not available anymore',
     },
-    logo: placeHolder,
+    logo: logoSigmasoft,
     client: 'Sigmasoft',
   },
   {
@@ -186,7 +191,7 @@ const projectsBefore = [
       href: 'https://portfolio.digital-noises.de/www.fdi-secrets.de/',
       label: 'link to my portfolio/archive, project has been taken down',
     },
-    logo: placeHolder,
+    logo: logoFDISecrets,
     client: 'Fashion Design Institute',
   },
 
@@ -197,7 +202,7 @@ const projectsBefore = [
       href: 'https://portfolio.digital-noises.de/kangaroo.de/',
       label: 'Kangaroo',
     },
-    logo: placeHolder,
+    logo: logoKangaroo,
     client: 'Schlicht und ergreifend',
   },
   {
@@ -207,7 +212,7 @@ const projectsBefore = [
       href: 'https://www.nielsgaury.de/',
       label: 'Niels Gaury (2018)',
     },
-    logo: placeHolder,
+    logo: logoNiels,
     client: 'Niels Gaury',
   },
   {
@@ -263,7 +268,7 @@ export default function Projects() {
 
       <SimpleLayout
         title="Some interesting jobs"
-        intro="I've developed a lot of projects in since 1998 …"
+        intro="I've developed and maintained a lot of projects  …"
       >
         <h2 className="mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           2022
