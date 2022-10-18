@@ -63,8 +63,8 @@ const projects2022 = [
     Configuration, FilterPlugin, DIVI-Childtheme)
     `,
     link: {
-      href: 'https://admin.gillrath.de/objekte/',
-      label: 'admin.gillrath.de · wip',
+      href: 'https://gillrath.de/objekte/',
+      label: 'gillrath.de · work in progress',
     },
     logo: logoGillrath,
     client: 'Gillrath',
