@@ -271,7 +271,7 @@ export default function About() {
                 florianschommertz
               </SocialLink>
               <SocialLink
-                href="message:schommertz@icloud.com"
+                href="imessage:schommertz@icloud.com"
                 icon={ICloudIcon}
                 className="mt-4"
               >

@@ -132,7 +132,7 @@ const projects2021 = [
     custom-post-types. Design by Schroeder-And-Friends, SEO concept by
     bretagneurlaub.de`,
     link: {
-      href: 'https://bretagneurlaub.de/',
+      href: 'https://www.bretagneurlaub.de/de/',
       label: 'bretagneurlaub.de',
     },
     client: 'Bretagneurlaub',
@@ -218,7 +218,7 @@ const projectsBefore = [
   {
     name: 'All others (most outdated/ renewed) - Mostyl WordPress Projects',
     description: `ironmaiden.de (Live After Death DVD Release) · kylie.de (Kylie Minogue) · johnnylogan.com (Johnny Logan) · diagnostik-hilft.de · zplusm.de ·  sigmasoft.de · bvsa.de · musikkeller.com · auge-wegberg.de · hifi-schluderbacher.de · oliebe.com · darius-mattheisen.de · hoehler-neumann.de · curlsfight.com (Unilevers Beauty Brand Tigi) · parfuemerie-meller.de · costrade.at · buerofueraufmerksamkeit.de · tueschenbroicher-muehle.de · ecoseaker.nz · bronk-objekte.de · notare-svk.de · pettersson-und-findus.de · dassams.de · dieolichis.de · funke-buch.de · malunamondschein.de · norbert-greuel.de · dietributevonpanem.de · oberste-beulmann.de · hospizstiftung-aachen.de · jks-aachen.de · fashion-design-institut.de · praxis-am-rathausplatz.de · fahrschulmanufaktur.de · geheim-garten.de · european-inspire.com (Kyocera Event Website) · oldcountryhousenz.com (Christchurch Hostel) ·
-    simpatec.de · georg-maas.eu · tp-rechtsanwaelte.de · sjs-kanzlei.de · tp-rechtsanwaelte.de · abtei-gerleve.de · syst-beratung.com · schmitz-vornmoor.de · idgmbh.de · habets-aachen.de · landhausbrender.de · startarevolution.de · vitalliin.de · minigolf-wegberg.de · anna-maria-maile.de · homecare-aachen.de · schlemmermarkt-wassenberg.de · savanald.de · your-agency.com · auto-service-twardowski.de · ena-beratung.de · atelieretage-wegberg.de · stormheart.de · marahwoolf.de · animox-buch.de · cjdaugherty.de · oetinger-ohrwuermchen.de · ghetto-bitch.de (Youth Book) · secrets-trilogie.de · buecherstern.de · monday-club.de · zytologie-buettner.de · michels-blumen.de · frohn-gesundheit.de · kgsoiron.de ·  jansen-textil.de · auletta.de · vitalpraxis-roetgen.de · talkcitizen.org · loening.eu · physio-csw.de · ebens.de · ophover-muehle.de · sina-lindberg.de · d.iorama.de · spg-steiner.com · i-love-tigi.de/colourtrip · comnia.de · optik-alberty.de
+    simpatec.de · georg-maas.eu · tp-rechtsanwaelte.de · sjs-kanzlei.de · tp-rechtsanwaelte.de · abtei-gerleve.de · syst-beratung.com · schmitz-vornmoor.de · idgmbh.de · habets-aachen.de · landhausbrender.de · startarevolution.de · vitalliin.de · minigolf-wegberg.de · anna-maria-maile.de · homecare-aachen.de · schlemmermarkt-wassenberg.de · savanald.de · your-agency.com · auto-service-twardowski.de · ena-beratung.de · atelieretage-wegberg.de · stormheart.de · marahwoolf.de · animox-buch.de · cjdaugherty.de · oetinger-ohrwuermchen.de · ghetto-bitch.de (Youth Book) · secrets-trilogie.de · buecherstern.de · monday-club.de · zytologie-buettner.de · michels-blumen.de · frohn-gesundheit.de · kgsoiron.de ·  jansen-textil.de · auletta.de · vitalpraxis-roetgen.de · talkcitizen.org · loening.eu · physio-csw.de · ebens.de · ophover-muehle.de · sina-lindberg.de · d.iorama.de · spg-steiner.com · i-love-tigi.de/colourtrip · comnia.de · optik-alberty.de · darius-mattheisen.de
     `,
     link: {
       href: 'https://www.digital-noises.com/',
