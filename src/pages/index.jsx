@@ -143,7 +143,10 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <h2>Nice to meet you!</h2>
 
-              <p>Take a giant leap and just call, text or email.</p>
+              {/* <p>Take a giant leap and just call, text or email.</p> */}
+              <p>
+                Don't hesitate to reach out to me via phone, text, or email.
+              </p>
               <p>
                 If you need some problem solving, that's my specialty. With a
                 mouse, keyboard, and brain at my disposal, I am skilled at
@@ -166,7 +169,7 @@ export default function About() {
                 >
                   graphic architecture design book
                 </a>
-                for
+                &nbsp; for
                 <a href="https://gillrath.de" title="" class="pl-2 underline">
                   Gillrath
                 </a>{' '}
