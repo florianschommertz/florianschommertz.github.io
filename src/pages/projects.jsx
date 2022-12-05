@@ -56,12 +56,12 @@ function Photos() {
 const projects2022 = [
   {
     name: 'Gillrath',
-    description: `a.o.: WebComponents created with Vue / Vite for the cards
-    integrated in WordPress with DIVI · CSS
-    the project consist of five separate DevOps environments managed via
-    GitHub (WebComponent Lib, Modules Plugin for DIVI, plugin for Custom-Post-Types and Taxonomies as well as Advanced-Custom-Fields
-    Configuration, FilterPlugin, DIVI-Childtheme)
-    `,
+    description: `Some other notable elements of the project include:
+<ul>
+<li>WebComponents created with Vue/Vite for the cards integrated in WordPress with DIVI and CSS
+The project consists of five separate DevOps environments managed via GitHub, including a <li>WebComponent Lib, Modules Plugin for DIVI, plugin for Custom-Post-Types and Taxonomies, Advanced-Custom-Fields Configuration, FilterPlugin, and DIVI-Childtheme.
+</ul>
+`,
     link: {
       href: 'https://gillrath.de/objekte/',
       label: 'gillrath.de · work in progress',
@@ -71,8 +71,7 @@ const projects2022 = [
   },
   {
     name: 'shapes music',
-    description: `A basic website with an HTML5 video and loop listener, three.js was
-    used for the footer animation of the »logo s«`,
+    description: `For this simple website, we included an HTML5 video with a loop listener and used three.js for a cool footer animation featuring our "logo s".`,
     link: { href: 'https://shapes-music.de/', label: 'shapes-music.de' },
     logo: logoShapes,
     client: 'schlicht und ergreifend',
@@ -166,7 +165,7 @@ const projectsBefore = [
   },
   {
     name: 'John Diva',
-    description: `A band website built with nuxt/vue.js(2) as a headless WordPress, with a plain PHP-Fan Login. The Links up to »Downloads« are Nuxt, the others are outbound or WordPress.`,
+    description: `We built a band website using nuxt/vue.js (Version 2) as a headless WordPress, with a simple PHP-Fan Login. The links leading to "Downloads" are Nuxt, while the others are outbound or WordPress.`,
     link: {
       href: 'https://johndiva.com/',
       label: 'John Diva (2018)',
@@ -176,7 +175,7 @@ const projectsBefore = [
   },
   {
     name: 'Blog for Sigmasoft',
-    description: `A custom WordPress blog theme, built from scratch. The frontpage of the theme had several different layout blocks for the blog articles. At the time of development, CSS grid was bleeding edge. (Integrated in the clients default CMS - All navigation links direct to the current live site)`,
+    description: `We designed and built a custom WordPress blog theme from scratch, featuring a frontpage with various layout blocks for the blog articles. The use of CSS grid was bleeding edge at the time of development. The theme was integrated into the client's default CMS, and all navigation links lead to the current live site.`,
     link: {
       href: 'https://portfolio.digital-noises.de/blog.sigmasoft.de/',
       label: 'link to my portfolio/archive, the blog is not available anymore',
@@ -207,7 +206,7 @@ const projectsBefore = [
   },
   {
     name: 'Niels Gaury',
-    description: `Portfolio-Website for semi professional photographer Niels and my evaluation project for VueJS. I decided long on the »react/vue« question (after a brief experience with Angular 1). This is the result of my decision at the time that I've not regretted. React however, lost the battle for me, because of Facebooks license at the time.`,
+    description: `Portfolio-Website for semi professional photographer Niels and my evaluation project for VueJS. I decided long on the »react/vue« question (after a brief experience with Angular 1).  I have not regretted this decision, as React lost the battle for me due to Facebook's licensing at the time.`,
     link: {
       href: 'https://www.nielsgaury.de/',
       label: 'Niels Gaury (2018)',
@@ -216,7 +215,7 @@ const projectsBefore = [
     client: 'Niels Gaury',
   },
   {
-    name: 'All others (most outdated/ renewed) - Mostyl WordPress Projects',
+    name: 'All others (most outdated/ renewed) - Mostly WordPress Projects',
     description: `ironmaiden.de (Live After Death DVD Release) · kylie.de (Kylie Minogue) · johnnylogan.com (Johnny Logan) · diagnostik-hilft.de · zplusm.de ·  sigmasoft.de · bvsa.de · musikkeller.com · auge-wegberg.de · hifi-schluderbacher.de · oliebe.com · darius-mattheisen.de · hoehler-neumann.de · curlsfight.com (Unilevers Beauty Brand Tigi) · parfuemerie-meller.de · costrade.at · buerofueraufmerksamkeit.de · tueschenbroicher-muehle.de · ecoseaker.nz · bronk-objekte.de · notare-svk.de · pettersson-und-findus.de · dassams.de · dieolichis.de · funke-buch.de · malunamondschein.de · norbert-greuel.de · dietributevonpanem.de · oberste-beulmann.de · hospizstiftung-aachen.de · jks-aachen.de · fashion-design-institut.de · praxis-am-rathausplatz.de · fahrschulmanufaktur.de · geheim-garten.de · european-inspire.com (Kyocera Event Website) · oldcountryhousenz.com (Christchurch Hostel) ·
     simpatec.de · georg-maas.eu · tp-rechtsanwaelte.de · sjs-kanzlei.de · tp-rechtsanwaelte.de · abtei-gerleve.de · syst-beratung.com · schmitz-vornmoor.de · idgmbh.de · habets-aachen.de · landhausbrender.de · startarevolution.de · vitalliin.de · minigolf-wegberg.de · anna-maria-maile.de · homecare-aachen.de · schlemmermarkt-wassenberg.de · savanald.de · your-agency.com · auto-service-twardowski.de · ena-beratung.de · atelieretage-wegberg.de · stormheart.de · marahwoolf.de · animox-buch.de · cjdaugherty.de · oetinger-ohrwuermchen.de · ghetto-bitch.de (Youth Book) · secrets-trilogie.de · buecherstern.de · monday-club.de · zytologie-buettner.de · michels-blumen.de · frohn-gesundheit.de · kgsoiron.de ·  jansen-textil.de · auletta.de · vitalpraxis-roetgen.de · talkcitizen.org · loening.eu · physio-csw.de · ebens.de · ophover-muehle.de · sina-lindberg.de · d.iorama.de · spg-steiner.com · i-love-tigi.de/colourtrip · comnia.de · optik-alberty.de · darius-mattheisen.de
     `,

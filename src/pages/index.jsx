@@ -145,40 +145,50 @@ export default function About() {
 
               <p>Take a giant leap and just call, text or email.</p>
               <p>
-                Just in case you need some problem solving, that is my thing
-                too. Although I have a mouse, keyboard and brain at my disposal,
-                I am good at listening and finding out what your and your
-                customers' special needs are.
+                If you need some problem solving, that's my specialty. With a
+                mouse, keyboard, and brain at my disposal, I am skilled at
+                listening to your and your customers' unique needs and finding
+                solutions.
               </p>
               <p>
-                Or visit »problem solving« on our old business website of
-                2014over on
+                If you want to learn more about our problem-solving skills,
+                checkout n our old business website of 2014 at
                 <a href="https://digital-noises.com" class="pl-2 underline">
                   digital-noises.com
                 </a>
               </p>
 
               <p>
-                For the last 15 years my wife and I have been overwhelmed by our
-                work. We made a book, launched about three bigger and ~7 smaller
-                websites per year, and saved about 50 clients from penalties for
-                GDPR privacy regulations.
+                We recently designed a stunning
+                <a
+                  href="https://archive2022.gillrath.de/wp-content/uploads/edition-iv/"
+                  class="pl-2 underline"
+                >
+                  graphic architecture design book
+                </a>
+                for
+                <a href="https://gillrath.de" title="" class="pl-2 underline">
+                  Gillrath
+                </a>{' '}
+                a clay brick manufacturer in Germany. In addition, we launch
+                around ten websites per year.
               </p>
               <p>
-                To be fair - many of the jobs include WooCommerce shops with
-                DIVI; it's just a pretty solid base setup. Others are complete
-                custom setups, such as a multisite WordPress theme/setup for a
-                large German publisher called Oetinger-Verlag.
+                Some of the jobs I have worked on involve setting up WooCommerce
+                shops with DIVI, which provides a solid foundation for these
+                projects. Other jobs involve creating custom setups, such as a
+                multisite WordPress theme/setup for a large German publisher
+                called Oetinger-Verlag.
               </p>
 
               <p>
-                I have been lucky enough to be able to live in two of the most
-                amazing countries in the world; Germany and New Zealand and have
-                built an ever-growing connection to NZ and its people since the
-                first time I visited in 2001. My wife and I were lucky to have
-                travelled and stayed in every significant city and region for
-                extended periods each year while remotely running my german
-                online business.
+                Living in two incredible countries, Germany and New Zealand, has
+                been a truly fortunate experience for me. Since my first visit
+                to NZ in 2001, I have developed a deep connection with the
+                people and the country. My wife and I have been lucky enough to
+                travel to and stay in every major city and region in NZ for
+                extended periods each year, all while running my German online
+                business remotely.
               </p>
 
               <h2>Skills</h2>
@@ -298,3 +308,7 @@ export default function About() {
     </>
   )
 }
+// <!--
+//                 Last but and saved about 50
+//                 clients from penalties for GDPR privacy regulations.
+//                 -->
