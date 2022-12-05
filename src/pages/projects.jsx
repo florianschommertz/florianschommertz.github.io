@@ -56,12 +56,9 @@ function Photos() {
 const projects2022 = [
   {
     name: 'Gillrath',
-    description: `Some other notable elements of the project include:
-<ul>
-<li>WebComponents created with Vue/Vite for the cards integrated in WordPress with DIVI and CSS
-The project consists of five separate DevOps environments managed via GitHub, including a <li>WebComponent Lib, Modules Plugin for DIVI, plugin for Custom-Post-Types and Taxonomies, Advanced-Custom-Fields Configuration, FilterPlugin, and DIVI-Childtheme.
-</ul>
-`,
+    description: `Some notable elements of the project include:\n
+    • WebComponents created with Vue/Vite for the cards integrated in WordPress with DIVI and CSS
+• The project consists of five separate DevOps environments managed via GitHub, including a WebComponent Lib, Modules Plugin for DIVI, plugin for Custom-Post-Types and Taxonomies, Advanced-Custom-Fields Configuration, FilterPlugin, and DIVI-Childtheme.`,
     link: {
       href: 'https://gillrath.de/objekte/',
       label: 'gillrath.de · work in progress',
@@ -71,7 +68,7 @@ The project consists of five separate DevOps environments managed via GitHub, in
   },
   {
     name: 'shapes music',
-    description: `For this simple website, we included an HTML5 video with a loop listener and used three.js for a cool footer animation featuring our "logo s".`,
+    description: `For this simple website, I included an HTML5 video with a loop listener and used three.js for a cool footer animation featuring the »logo s«.`,
     link: { href: 'https://shapes-music.de/', label: 'shapes-music.de' },
     logo: logoShapes,
     client: 'schlicht und ergreifend',
@@ -79,7 +76,7 @@ The project consists of five separate DevOps environments managed via GitHub, in
 
   {
     name: 'Measx',
-    description: `A Nuxt JS Project, WIP. Content is added at the time being.`,
+    description: `WIP. - A Nuxt JS Project. Content is added at the time being.`,
     link: {
       href: 'https://nuxt-dev.measx.com/de/loesungen/prufstandstechnik/',
       label: 'nuxt-dev.measx.com · wip',
@@ -91,7 +88,7 @@ The project consists of five separate DevOps environments managed via GitHub, in
 const projects2021 = [
   {
     name: 'Alumni IKV',
-    description: `Multiuser Contacts App for the Institute of Plastics Processing<br />
+    description: `Multiuser Contacts App for the Institute of Plastics Processing /
     demonstration possible
     `,
     link: {

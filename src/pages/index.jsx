@@ -143,7 +143,6 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <h2>Nice to meet you!</h2>
 
-              {/* <p>Take a giant leap and just call, text or email.</p> */}
               <p>
                 Don't hesitate to reach out to me via phone, text, or email.
               </p>
@@ -154,22 +153,22 @@ export default function About() {
                 solutions.
               </p>
               <p>
-                If you want to learn more about our problem-solving skills,
-                checkout n our old business website of 2014 at
+                If you want to learn more about my problem-solving skills,
+                checkout my old business website of 2014 at
                 <a href="https://digital-noises.com" class="pl-2 underline">
                   digital-noises.com
                 </a>
               </p>
 
               <p>
-                We recently designed a stunning
+                I recently designed a stunning
                 <a
                   href="https://archive2022.gillrath.de/wp-content/uploads/edition-iv/"
                   class="pl-2 underline"
                 >
                   graphic architecture design book
-                </a>
-                &nbsp; for
+                </a>{' '}
+                for
                 <a href="https://gillrath.de" title="" class="pl-2 underline">
                   Gillrath
                 </a>{' '}
