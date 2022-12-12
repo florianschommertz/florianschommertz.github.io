@@ -154,22 +154,22 @@ export default function About() {
               </p>
               <p>
                 If you want to learn more about my problem-solving skills,
-                checkout my old business website of 2014 at
-                <a href="https://digital-noises.com" class="pl-2 underline">
+                checkout my old business website of 2014 at{' '}
+                <a href="https://digital-noises.com" class="underline">
                   digital-noises.com
                 </a>
               </p>
 
               <p>
-                I recently designed a stunning
+                I recently designed a stunning{' '}
                 <a
                   href="https://archive2022.gillrath.de/wp-content/uploads/edition-iv/"
-                  class="pl-2 underline"
+                  class="underline"
                 >
                   graphic architecture design book
                 </a>{' '}
-                for
-                <a href="https://gillrath.de" title="" class="pl-2 underline">
+                for{' '}
+                <a href="https://gillrath.de" title="" class="underline">
                   Gillrath
                 </a>{' '}
                 a clay brick manufacturer in Germany. In addition, we launch
@@ -225,8 +225,8 @@ export default function About() {
               <ul>
                 <li v-ranking="95">Illustrator</li>
                 <li v-ranking="90">Lightroom</li>
-                <li v-ranking="85">Photoshop</li>
-                <li v-ranking="80">Indesign</li>
+                <li v-ranking="80">Photoshop</li>
+                <li v-ranking="90">Indesign</li>
                 <li v-ranking="60">Adobe XD</li>
               </ul>
               <h3 className="mt-5">Audio / Video</h3>
