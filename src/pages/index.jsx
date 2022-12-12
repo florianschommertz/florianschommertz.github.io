@@ -297,6 +297,13 @@ export default function About() {
                 +49.2434.30 83 890
               </SocialLink>
               <SocialLink
+                href="tel:+64220895068"
+                icon={PhoneIcon}
+                className="mt-4"
+              >
+                +64.22 089 5068
+              </SocialLink>
+              <SocialLink
                 href="#"
                 icon={AddressIcon}
                 className="mt-4 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
