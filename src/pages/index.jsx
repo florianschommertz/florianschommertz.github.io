@@ -245,7 +245,7 @@ export default function About() {
                 href="https://twitter.com/digitalnoisesco/"
                 icon={TwitterIcon}
               >
-                Follow on Twitter
+                <strike>Follow on Twitter</strike>
               </SocialLink>
               <SocialLink
                 href="https://www.instagram.com/digital_noises/"
