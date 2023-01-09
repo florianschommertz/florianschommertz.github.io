@@ -9,6 +9,7 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  RedditIcon,
   SkypeInIcon,
   ICloudIcon,
   PhoneIcon,
@@ -253,6 +254,13 @@ export default function About() {
                 className="mt-4"
               >
                 Follow on Instagram
+              </SocialLink>
+              <SocialLink
+                href="https://www.reddit.com/user/digitalnoises/"
+                icon={RedditIcon}
+                className="mt-4"
+              >
+                Follow on Reddit
               </SocialLink>
               <SocialLink
                 href="https://github.com/florianschommertz/"
