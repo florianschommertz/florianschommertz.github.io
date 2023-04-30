@@ -134,6 +134,16 @@ const projects2021 = [
     client: 'Bretagneurlaub',
     logo: logoBretagneurlaub,
   },
+  {
+    name: 'Schön!',
+    description: `a WordPress-Website for an international magazine, coolfeatures are shortcode and extensive use of DIVI-builder-features – work in progress`,
+    link: {
+      href: 'https://schon.ch/',
+      label: 'schon.ch',
+    },
+    client: 'Schön! - Switzerland',
+    logo: placeHolder,
+  },
 ]
 
 const projects2020 = [
