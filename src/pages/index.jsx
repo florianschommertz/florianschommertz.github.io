@@ -316,7 +316,7 @@ export default function About() {
                 icon={AddressIcon}
                 className="mt-4 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                St-Rochusweiler 13a · 41844 Wegberg · Germany
+                Holunderweg 2 · 41372 Niederkrüchten · Germany
               </SocialLink>
             </ul>
           </div>
