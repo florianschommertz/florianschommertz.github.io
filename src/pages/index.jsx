@@ -129,6 +129,7 @@ export default function About() {
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                priority="false"
               />
             </div>
           </div>
@@ -156,7 +157,7 @@ export default function About() {
               <p>
                 If you want to learn more about my problem-solving skills,
                 checkout my old business website of 2014 at{' '}
-                <a href="https://digital-noises.com" class="underline">
+                <a href="https://digital-noises.com" className="underline">
                   digital-noises.com
                 </a>
               </p>
@@ -165,12 +166,12 @@ export default function About() {
                 I recently designed a stunning{' '}
                 <a
                   href="https://archive2022.gillrath.de/wp-content/uploads/edition-iv/"
-                  class="underline"
+                  className="underline"
                 >
                   graphic architecture design book
                 </a>{' '}
                 for{' '}
-                <a href="https://gillrath.de" title="" class="underline">
+                <a href="https://gillrath.de" title="" className="underline">
                   Gillrath
                 </a>{' '}
                 a clay brick manufacturer in Germany. In addition, we launch

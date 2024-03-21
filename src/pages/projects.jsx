@@ -53,6 +53,45 @@ function Photos() {
     </div>
   )
 }
+const projects2024 = [
+  {
+    name: 'Event iOS App',
+    description: `Quick overview:\n
+    • Database driven event app with a custom API
+    • Performance optimization for a smooth user experience, with help of localforage`,
+    link: {
+      href: 'https://event.ikv-aachen.de/',
+      label: 'event.ikv-aachen.de · work in progress',
+    },
+    logo: logoIKV,
+    client: 'Evangelische Kirchengemeinde Ehrenfeld',
+  },
+]
+const projects2023 = [
+  {
+    name: 'Evangelische Kirchengemeinde Ehrenfeld',
+    description: `Some notable elements of the project include:\n
+    • HTMX driven filter and search (with WordPress custom taxonomies)
+    • Extensive and elegant use of Advanced Custom Fields in Gutenberg Blocks`,
+    link: {
+      href: 'https://www.evangelisch-ehrenfeld.de/',
+      label: 'evangelisch-ehrenfeld.de',
+    },
+    logo: placeHolder,
+    client: 'Evangelische Kirchengemeinde Ehrenfeld',
+  },
+  {
+    name: 'Gillrath - Texturgenerator',
+    description: `VUE.js 3 driven seamless tilegenerator:\n
+    • from brickwall to tile generator with bumbmaps`,
+    link: {
+      href: 'https://texturgenerator.gillrath.de',
+      label: 'texturgenerator.gillrath.de',
+    },
+    logo: logoGillrath,
+    client: 'Gillrath',
+  },
+]
 const projects2022 = [
   {
     name: 'Gillrath',
@@ -223,8 +262,8 @@ const projectsBefore = [
   },
   {
     name: 'All others (most outdated/ renewed) - Mostly WordPress Projects',
-    description: `ironmaiden.de (Live After Death DVD Release) · kylie.de (Kylie Minogue) · johnnylogan.com (Johnny Logan) · diagnostik-hilft.de · zplusm.de ·  sigmasoft.de · bvsa.de · musikkeller.com · auge-wegberg.de · hifi-schluderbacher.de · oliebe.com · darius-mattheisen.de · hoehler-neumann.de · curlsfight.com (Unilevers Beauty Brand Tigi) · parfuemerie-meller.de · costrade.at · buerofueraufmerksamkeit.de · tueschenbroicher-muehle.de · ecoseaker.nz · bronk-objekte.de · notare-svk.de · pettersson-und-findus.de · dassams.de · dieolichis.de · funke-buch.de · malunamondschein.de · norbert-greuel.de · dietributevonpanem.de · oberste-beulmann.de · hospizstiftung-aachen.de · jks-aachen.de · fashion-design-institut.de · praxis-am-rathausplatz.de · fahrschulmanufaktur.de · geheim-garten.de · european-inspire.com (Kyocera Event Website) · oldcountryhousenz.com (Christchurch Hostel) ·
-    simpatec.de · georg-maas.eu · tp-rechtsanwaelte.de · sjs-kanzlei.de · tp-rechtsanwaelte.de · abtei-gerleve.de · syst-beratung.com · schmitz-vornmoor.de · idgmbh.de · habets-aachen.de · landhausbrender.de · startarevolution.de · vitalliin.de · minigolf-wegberg.de · anna-maria-maile.de · homecare-aachen.de · schlemmermarkt-wassenberg.de · savanald.de · your-agency.com · auto-service-twardowski.de · ena-beratung.de · atelieretage-wegberg.de · stormheart.de · marahwoolf.de · animox-buch.de · cjdaugherty.de · oetinger-ohrwuermchen.de · ghetto-bitch.de (Youth Book) · secrets-trilogie.de · buecherstern.de · monday-club.de · zytologie-buettner.de · michels-blumen.de · frohn-gesundheit.de · kgsoiron.de ·  jansen-textil.de · auletta.de · vitalpraxis-roetgen.de · talkcitizen.org · loening.eu · physio-csw.de · ebens.de · ophover-muehle.de · sina-lindberg.de · d.iorama.de · spg-steiner.com · i-love-tigi.de/colourtrip · comnia.de · optik-alberty.de · darius-mattheisen.de
+    description: `chang3r.com · ironmaiden.de (Live After Death DVD Release) · kylie.de (Kylie Minogue) · johnnylogan.com (Johnny Logan) · diagnostik-hilft.de · zplusm.de ·  sigmasoft.de · bvsa.de · musikkeller.com · auge-wegberg.de · hifi-schluderbacher.de · oliebe.com · darius-mattheisen.de · hoehler-neumann.de · curlsfight.com (Unilevers Beauty Brand Tigi) · parfuemerie-meller.de · costrade.at · buerofueraufmerksamkeit.de · tueschenbroicher-muehle.de · ecoseaker.nz · bronk-objekte.de · notare-svk.de · pettersson-und-findus.de · dassams.de · dieolichis.de · funke-buch.de · malunamondschein.de · norbert-greuel.de · dietributevonpanem.de · oberste-beulmann.de · hospizstiftung-aachen.de · jks-aachen.de · fashion-design-institut.de · praxis-am-rathausplatz.de · fahrschulmanufaktur.de · geheim-garten.de · european-inspire.com (Kyocera Event Website) · oldcountryhousenz.com (Christchurch Hostel) ·
+    simpatec.de · georg-maas.eu · tp-rechtsanwaelte.de · sjs-kanzlei.de · tp-rechtsanwaelte.de · abtei-gerleve.de · syst-beratung.com · schmitz-vornmoor.de · idgmbh.de · habets-aachen.de · landhausbrender.de · startarevolution.de · vitalliin.de · minigolf-wegberg.de · anna-maria-maile.de · homecare-aachen.de · schlemmermarkt-wassenberg.de · savanald.de · your-agency.com · auto-service-twardowski.de · ena-beratung.de · atelieretage-wegberg.de · stormheart.de · marahwoolf.de · animox-buch.de · cjdaugherty.de · oetinger-ohrwuermchen.de · ghetto-bitch.de (Youth Book) · secrets-trilogie.de · buecherstern.de · monday-club.de · zytologie-buettner.de · michels-blumen.de · frohn-gesundheit.de · kgsoiron.de ·  jansen-textil.de · auletta.de · vitalpraxis-roetgen.de · talkcitizen.org · loening.eu · physio-csw.de · ebens.de · ophover-muehle.de · sina-lindberg.de · d.iorama.de · spg-steiner.com · i-love-tigi.de/colourtrip · comnia.de · optik-alberty.de · darius-mattheisen.de · praxis-theodor-heuss.de · schon.ch
     `,
     link: {
       href: 'https://www.digital-noises.com/',
@@ -277,6 +316,44 @@ export default function Projects() {
         intro="I've developed and maintained a lot of projects  …"
       >
         <h2 className="mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+          2024
+        </h2>
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {projects2024.map((project) => (
+            <PortfolioCard
+              key={project.name}
+              name={project.name}
+              logo={project.logo}
+              linkHref={project.link.href}
+              description={project.description}
+              client={project.client}
+              linkLabel={project?.link?.label}
+            ></PortfolioCard>
+          ))}
+        </ul>
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+          2023
+        </h2>
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {projects2023.map((project) => (
+            <PortfolioCard
+              key={project.name}
+              name={project.name}
+              logo={project.logo}
+              linkHref={project.link.href}
+              description={project.description}
+              client={project.client}
+              linkLabel={project?.link?.label}
+            ></PortfolioCard>
+          ))}
+        </ul>
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           2022
         </h2>
         <ul
@@ -295,7 +372,7 @@ export default function Projects() {
             ></PortfolioCard>
           ))}
         </ul>
-        <h2 className="mt-20 mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           2021
         </h2>
         <ul
@@ -314,7 +391,7 @@ export default function Projects() {
             ></PortfolioCard>
           ))}
         </ul>
-        <h2 className="mt-20 mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           2020
         </h2>
         <ul
@@ -333,7 +410,7 @@ export default function Projects() {
             ></PortfolioCard>
           ))}
         </ul>
-        <h2 className="mt-20 mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           Old Projects
         </h2>
         <ul

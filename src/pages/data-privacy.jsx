@@ -24,7 +24,7 @@ function Photos() {
             <div
               key={image.src}
               className={clsx(
-                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
+                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
                 rotations[imageIndex % rotations.length]
               )}
             >
@@ -33,6 +33,7 @@ function Photos() {
                 alt=""
                 sizes="(min-width: 640px) 18rem, 11rem"
                 className="absolute inset-0 h-full w-full object-cover"
+                priority="false"
               />
             </div>
           )
@@ -75,7 +76,7 @@ export default function Uses() {
         title="Data Privacy."
         intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
       >
-        <section className="mt-6 flex max-w-prose flex-col gap-y-[1.2em]  text-base text-zinc-600 sm:mt-32 dark:text-zinc-400">
+        <section className="mt-6 flex max-w-prose flex-col gap-y-[1.2em]  text-base text-zinc-600 dark:text-zinc-400 sm:mt-32">
           <h1>Privacy Policy</h1>
           <h2>1. An overview of data protection</h2>
           <h3>General information</h3>{' '}
