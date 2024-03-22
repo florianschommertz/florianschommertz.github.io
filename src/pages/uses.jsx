@@ -215,9 +215,7 @@ export default function Uses() {
             <Tool title="Drums">
               ATVs Sound Module elevates my old Roland Kit
             </Tool>
-            <Tool title="Starcraft 2">
-              Keeps the brain the fingers in shape.
-            </Tool>
+            <Tool title="Starcraft 2">Keeps brain and fingers in shape.</Tool>
           </ToolsSection>
         </div>
       </SimpleLayout>
