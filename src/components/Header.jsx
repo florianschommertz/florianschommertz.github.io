@@ -235,7 +235,7 @@ function Avatar({ large = false, className, ...props }) {
     >
       <Image
         src={avatarImage}
-        alt=""
+        alt="Florian with a cup of coffee"
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
           'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800',
@@ -384,6 +384,7 @@ export function Header() {
                   <Avatar
                     large
                     className="block h-16 w-16 origin-left"
+                    alt="Florian mit einer Tasse Milchkaffee"
                     style={{ transform: 'var(--avatar-image-transform)' }}
                   />
                 </div>

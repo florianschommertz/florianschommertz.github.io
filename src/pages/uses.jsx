@@ -136,9 +136,8 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
-            <strike>
-              <Tool title="Clear">A beautiful todo list and reminder!</Tool>
-            </strike>
+            <Tool title="Clear">A beautiful todo list and reminder!</Tool>
+
             <Tool title="Setapp">
               Everything I need at my fingertipps.&thinsp;·&thinsp;
               <a

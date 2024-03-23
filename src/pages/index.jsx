@@ -45,7 +45,7 @@ function Photos() {
           >
             <Image
               src={image}
-              alt=""
+              alt="Decoration Image, Impressions of New Zealand and Germany & Florian"
               sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -126,7 +126,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt=""
+                alt="Florian am Strand in Tauranga"
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                 priority="false"
@@ -250,7 +250,7 @@ export default function About() {
                 <strike>Follow on Twitter</strike>
               </SocialLink>
               <SocialLink
-                href="https://www.instagram.com/digital_noises/"
+                href="https://www.instagram.com/florianschommertz/"
                 icon={InstagramIcon}
                 className="mt-4"
               >
