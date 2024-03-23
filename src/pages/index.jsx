@@ -23,29 +23,45 @@ import imgHilarious from '@/images/photos/st-hilarious.jpeg'
 import imgKaimanawa1 from '@/images/photos/kaimanawa-1-img_3631.jpeg'
 import imgKaimanawa2 from '@/images/photos/kaimanawa-2-fun-img_3629.jpeg'
 
-function Photos() {
+const imageArray = [
+  {
+    imageData: imgGuitar,
+    alt: 'Florian and 7 string guitar',
+  },
+  {
+    imageData: imgKiwiRail,
+    alt: 'KiwiRail in Dunedin',
+  },
+  {
+    imageData: imgHilarious,
+    alt: 'Florian pointing at Streetsign: St. Hilarious',
+  },
+  {
+    imageData: imgKaimanawa1,
+    alt: 'Nancy & Florian in Kaimais',
+  },
+  {
+    imageData: imgKaimanawa2,
+    alt: 'Nancy & Florian in Kaimais, more fun',
+  },
+]
+const Photos = () => {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[
-          imgGuitar,
-          imgKiwiRail,
-          imgHilarious,
-          imgKaimanawa1,
-          imgKaimanawa2,
-        ].map((image, imageIndex) => (
+        {imageArray.map((e, imageIndex) => (
           <div
-            key={image.src}
+            key={e.imageData.src}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
             )}
           >
             <Image
-              src={image}
-              alt="Decoration Image, Impressions of New Zealand and Germany & Florian"
+              src={e.imageData}
+              alt={e.alt}
               sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-cover"
             />

@@ -13,30 +13,51 @@ import imgSunglasses from '@/images/photos/sunglas-down-img_7392.jpeg'
 import imgSmokie from '@/images/photos/smokie-img_6599.jpeg'
 import imgPortrait from '@/images/photos/portrait-img_2750.jpeg'
 
-function Photos() {
+const imageArray = [
+  {
+    imageData: imgBenny,
+    alt: 'Black Cat Benny on Lap and Laptop',
+  },
+  {
+    imageData: imgEspresso,
+    alt: 'Espresso addicition, Florian stuck his nose in coffee beans.',
+  },
+  {
+    imageData: imgSunglasses,
+    alt: 'Sunglasses pushed down and looking over the glasses, hat.',
+  },
+  {
+    imageData: imgSmokie,
+    alt: 'Smokie, a british shorthair cat, looking at the camera and Florian holding it.',
+  },
+  {
+    imageData: imgPortrait,
+    alt: 'Portrait of Florian looking straight into the camera., 3 day beard, big nose, non retouched eyes.',
+  },
+]
+
+const Photos = () => {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[imgPortrait, imgSmokie, imgEspresso, imgSunglasses, imgBenny].map(
-          (image, imageIndex) => (
-            <div
-              key={image.src}
-              className={clsx(
-                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
-                rotations[imageIndex % rotations.length]
-              )}
-            >
-              <Image
-                src={image}
-                alt=""
-                sizes="(min-width: 640px) 18rem, 11rem"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
-          )
-        )}
+        {imageArray.map((e, imageIndex) => (
+          <div
+            key={e.imageData.src}
+            className={clsx(
+              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+              rotations[imageIndex % rotations.length]
+            )}
+          >
+            <Image
+              src={e.imageData}
+              alt={e.alt}
+              sizes="(min-width: 640px) 18rem, 11rem"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </div>
+        ))}
       </div>
     </div>
   )
