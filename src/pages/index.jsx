@@ -222,6 +222,7 @@ export default function About() {
                 <li style={{ '--ranking': '98' }}>CSS / animation</li>
                 <li style={{ '--ranking': '90' }}>SASS / SCSS</li>
                 <li style={{ '--ranking': '90' }}>HTML</li>
+                <li style={{ '--ranking': '60' }}>HTMX</li>
                 <li style={{ '--ranking': '60' }}>SVG</li>
                 <li style={{ '--ranking': '80' }}>SEO</li>
                 <li style={{ '--ranking': '80' }}>Performance</li>
@@ -244,7 +245,7 @@ export default function About() {
                 <li v-ranking="95">Illustrator</li>
                 <li v-ranking="90">Lightroom</li>
                 <li v-ranking="80">Photoshop</li>
-                <li v-ranking="90">Indesign</li>
+                <li v-ranking="70">Indesign</li>
                 <li v-ranking="60">Adobe XD</li>
               </ul>
               <h3 className="mt-5">Audio / Video</h3>
@@ -333,7 +334,7 @@ export default function About() {
                 icon={AddressIcon}
                 className="mt-4 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                Holunderweg 2 · 41372 Niederkrüchten · Germany
+                Mühltalweg 48a · 41844 Wegberg · Germany
               </SocialLink>
             </ul>
           </div>

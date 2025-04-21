@@ -214,11 +214,12 @@ export default function Uses() {
           <p>
             Florian Schommertz
             <br />
-            Holunderweg 2<br />
-            41372 Niederkr&uuml;chten
+            Mühltalweg 48a
+            <br />
+            41844 Wegberg
           </p>
           <p>
-            Phone: &#91;Telefonnummer der verantwortlichen Stelle&#93;
+            Phone: +49 24 34.30 83 890
             <br />
             E-mail: florian@schommertz.com
           </p>

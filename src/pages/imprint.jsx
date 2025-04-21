@@ -84,8 +84,9 @@ export default function Uses() {
             <br />
             Digital Noises
             <br />
-            Holunderweg 2<br />
-            41372 Niederkr&uuml;chten
+            Mühltalweg 48a
+            <br />
+            41844 Wegberg
           </p>
           <h2>Contact</h2>
           <p>
