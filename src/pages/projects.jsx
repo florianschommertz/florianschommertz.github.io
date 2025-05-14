@@ -10,6 +10,7 @@ import logoBretagneurlaub from '@/images/logos/bretagneurlaub.svg'
 import logo3kubik from '@/images/logos/3kubik.svg'
 import logoIKV from '@/images/logos/ikv.svg'
 import logoGillrath from '@/images/logos/gillrath-icons.svg'
+import logoGoldenGate from '@/images/logos/goldengate.svg'
 import logoShapes from '@/images/logos/shapes.png'
 import logoJohnDiva from '@/images/logos/john-diva-logo-2x.png'
 import logoSigmasoft from '@/images/logos/sigma_logo_Header.svg'
@@ -74,18 +75,48 @@ const Photos = () => {
     </div>
   )
 }
+const projects2025 = [
+  {
+    name: 'Golden Gate Management',
+    description: `Quick overview:\n
+    • Minimlistic and elegant design by schlicht und ergreifend
+    • WordPress Theme from scratch`,
+    link: {
+      href: 'https://goldengatemanagement.com/',
+      label: 'goldengatemanagement.com',
+    },
+    logo: logoGoldenGate,
+    client: 'GoldenGate Management',
+  },
+  {
+    name: 'IKV Aachen',
+    description: `Quick overview:\n
+    • Minimlistic and elegant design by me
+    • WordPress Theme from scratch
+    • Tons of features including: a custom API for the ikv event app, an icon system, bidirectional links for persons and projects, a login area with a library tool
+    •  all as custom Gutenberg blocks
+    `,
+    link: {
+      href: 'https://ikv-aachen.de/',
+      label: 'ikv-aachen.de',
+    },
+    logo: logoIKV,
+    client: 'IKV Aachen',
+  },
+]
 const projects2024 = [
   {
     name: 'Event iOS App',
     description: `Quick overview:\n
     • Database driven event app with a custom API
-    • Performance optimization for a smooth user experience, with help of localforage`,
+    • Performance optimization for a smooth user experience, with help of localforage
+    • Headless WordPress as backend`,
     link: {
       href: 'https://event.ikv-aachen.de/',
       label: 'event.ikv-aachen.de · work in progress',
     },
     logo: logoIKV,
-    client: 'Evangelische Kirchengemeinde Ehrenfeld',
+    client: 'IKV Aachen',
   },
 ]
 const projects2023 = [
@@ -337,6 +368,25 @@ export default function Projects() {
         intro="I've developed and maintained a lot of projects  …"
       >
         <h2 className="mb-3 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+          2025
+        </h2>
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {projects2025.map((project) => (
+            <PortfolioCard
+              key={project.name}
+              name={project.name}
+              logo={project.logo}
+              linkHref={project.link.href}
+              description={project.description}
+              client={project.client}
+              linkLabel={project?.link?.label}
+            ></PortfolioCard>
+          ))}
+        </ul>
+        <h2 className="mb-3 mt-20 text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           2024
         </h2>
         <ul
