@@ -275,7 +275,7 @@ const projectsBefore = [
     name: 'Blog for Sigmasoft',
     description: `We designed and built a custom WordPress blog theme from scratch, featuring a frontpage with various layout blocks for the blog articles. The use of CSS grid was bleeding edge at the time of development. The theme was integrated into the client's default CMS, and all navigation links lead to the current live site.`,
     link: {
-      href: 'https://portfolio.digital-noises.de/blog.sigmasoft.de/',
+      href: 'https://portfolio.digital-noises.com/blog.sigmasoft.de/',
       label: 'link to my portfolio/archive, the blog is not available anymore',
     },
     logo: logoSigmasoft,
@@ -285,7 +285,7 @@ const projectsBefore = [
     name: 'FDI Secrets',
     description: `PR-Website for a german fashion school.`,
     link: {
-      href: 'https://portfolio.digital-noises.de/www.fdi-secrets.de/',
+      href: 'https://portfolio.digital-noises.com/www.fdi-secrets.de/',
       label: 'link to my portfolio/archive, project has been taken down',
     },
     logo: logoFDISecrets,
@@ -296,7 +296,7 @@ const projectsBefore = [
     name: 'Kangaroo',
     description: `A recruiter website based on VueJS and Foundation (CSS) · (The Current Livesite is maintained and altered by client IT.)`,
     link: {
-      href: 'https://portfolio.digital-noises.de/kangaroo.de/',
+      href: 'https://portfolio.digital-noises.com/kangaroo.de/',
       label: 'Kangaroo',
     },
     logo: logoKangaroo,
