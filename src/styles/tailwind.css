@@ -1,4 +1,5 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+/* Tailwind CSS v4 consolidated import */
+@import "tailwindcss";
+
+/* Custom additional styles (syntax highlighting, etc.) */
 @import './prism.css';
-@import 'tailwindcss/utilities';
